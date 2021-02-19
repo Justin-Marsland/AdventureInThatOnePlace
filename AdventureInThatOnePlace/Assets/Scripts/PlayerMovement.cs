@@ -4,11 +4,34 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement Instance { get; private set; }
+
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
     Vector2 movement;
+
+    private enum State
+    {
+        Normal,
+        Attacking,
+    }
+
     public Animator myAnimator;
     public bool facingRight = true;
+
+    private State currentState;
+
+    private float attackTime = .25f; //This will change to the Weapon class
+    private float attackCounter = .25f;
+    private bool isAttacking;
+
+    private void Awake()
+    {
+        Instance = this;
+        rb = GetComponent<Rigidbody2D>();
+        currentState = State.Normal;
+    }
+
     // Update is called once per frame
     private void Start()
     {
@@ -17,40 +40,18 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         //Input
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
+        switch(currentState)
+        {
+            case State.Normal:
+                Movement();
+                CharacterAttack();
+                break;
+            case State.Attacking:
+                break;
 
-        myAnimator.SetFloat("Horizontal", movement.x);
-        myAnimator.SetFloat("Vertical", movement.y);
-        myAnimator.SetFloat("Speed", movement.sqrMagnitude);
-        if(movement.x > 0)
-        {
-            myAnimator.SetBool("IsRight", true);
-            myAnimator.SetBool("IsLeft", false);
-            myAnimator.SetBool("IsUp", false);
-            myAnimator.SetBool("IsDown", false);
         }
-        else if(movement.x < 0)
-        {
-            myAnimator.SetBool("IsRight", false);
-            myAnimator.SetBool("IsLeft", true);
-            myAnimator.SetBool("IsUp", false);
-            myAnimator.SetBool("IsDown", false);
-        }
-        else if(movement.y > 0)
-        {
-            myAnimator.SetBool("IsRight", false);
-            myAnimator.SetBool("IsLeft", false);
-            myAnimator.SetBool("IsUp", true);
-            myAnimator.SetBool("IsDown", false);
-        }
-        else if(movement.y < 0)
-        {
-            myAnimator.SetBool("IsRight", false);
-            myAnimator.SetBool("IsLeft", false);
-            myAnimator.SetBool("IsUp", false);
-            myAnimator.SetBool("IsDown", true);
-        }
+
+
 
     }
     private void FixedUpdate()
@@ -69,5 +70,41 @@ public class PlayerMovement : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+    private void Movement()
+    {
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        myAnimator.SetFloat("Horizontal", movement.x);
+        myAnimator.SetFloat("Vertical", movement.y);
+        myAnimator.SetFloat("Speed", movement.sqrMagnitude);
+
+        if(movement.x == 1 || movement.x == -1 || movement.y == 1 || movement.y == -1)
+        {
+            myAnimator.SetFloat("lastMoveX", movement.x);
+            myAnimator.SetFloat("lastMoveY", movement.y);
+        }
+
+    }
+    private void CharacterAttack()
+    {
+        if(isAttacking)
+        {
+            attackCounter -= Time.deltaTime;
+            if(attackCounter <= 0)
+            {
+                myAnimator.SetBool("isAttacking", false);
+                isAttacking = false;
+            }
+        }
+        if(Input.GetMouseButtonDown(0))
+        {
+            attackCounter = attackTime;
+            //AttackDir = transform.position;
+            //currentState = State.Attacking;
+            myAnimator.SetBool("isAttacking", true);
+            isAttacking = true;
+        }
     }
 }
