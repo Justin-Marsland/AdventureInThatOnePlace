@@ -40,16 +40,16 @@ public class PlayerMovement : MonoBehaviour
     void Update()
     {
         //Input
-        switch(currentState)
-        {
-            case State.Normal:
+        //switch(currentState)
+        //{
+            //case State.Normal:
                 Movement();
                 CharacterAttack();
-                break;
-            case State.Attacking:
-                break;
+                //break;
+            //case State.Attacking:
+                //break;
 
-        }
+        //}
 
 
 
@@ -91,6 +91,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(isAttacking)
         {
+            movement = Vector2.zero;
             attackCounter -= Time.deltaTime;
             if(attackCounter <= 0)
             {

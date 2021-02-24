@@ -203,6 +203,87 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 24165197944415059, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
   m_PrefabInstance: {fileID: 24165198653688443}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1316813546 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2104513563, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+  m_PrefabInstance: {fileID: 24165198653688443}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1316813547
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316813546}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.15237945}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 0.39048207}
+  m_EdgeRadius: 0
+--- !u!95 &1316813548
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1316813546}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 31dd5a32eb9dc9242bc2055f3ba91be6, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!1 &1424223534 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1247464595, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+  m_PrefabInstance: {fileID: 24165198653688443}
+  m_PrefabAsset: {fileID: 0}
+--- !u!61 &1424223535
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1424223534}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.008465558, y: -0.65466726}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.9266322, y: 0.43563175}
+  m_EdgeRadius: 0
 --- !u!1 &1883984770
 GameObject:
   m_ObjectHideFlags: 0
@@ -1558,6 +1639,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1247464595, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: m_Name
+      value: DaggerDown
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277285910, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: m_Name
+      value: DaggerLeft
+      objectReference: {fileID: 0}
+    - target: {fileID: 2104513563, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: m_Name
+      value: DaggerUp
+      objectReference: {fileID: 0}
+    - target: {fileID: 24165197944415057, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 24165197944415059, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
       propertyPath: m_Name
       value: Player
@@ -1605,6 +1702,14 @@ PrefabInstance:
     - target: {fileID: 24165197944415063, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1069314907365576270, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8008532341685949019, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
