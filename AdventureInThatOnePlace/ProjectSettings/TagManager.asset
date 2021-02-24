@@ -13,7 +13,7 @@ TagManager:
   - UI
   - GroundLayer
   - Objects
-  - 
+  - Canopy
   - 
   - 
   - 
@@ -49,4 +49,7 @@ TagManager:
     locked: 0
   - name: DetailLayer
     uniqueID: 3951222637
+    locked: 0
+  - name: CanopyLayer
+    uniqueID: 3327711357
     locked: 0
