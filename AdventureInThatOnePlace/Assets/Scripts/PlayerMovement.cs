@@ -10,26 +10,18 @@ public class PlayerMovement : MonoBehaviour
     public Rigidbody2D rb;
     Vector2 movement;
 
-    private enum State
-    {
-        Normal,
-        Attacking,
-    }
-
     public Animator myAnimator;
     public bool facingRight = true;
 
-    private State currentState;
-
-    private float attackTime = .25f; //This will change to the Weapon class
-    private float attackCounter = .25f;
+    private float attackTime = .4f; //This will change to the Weapon class
+    private float attackCounter = .25f; 
     private bool isAttacking;
 
     private void Awake()
     {
         Instance = this;
         rb = GetComponent<Rigidbody2D>();
-        currentState = State.Normal;
+        //currentState = State.Normal;
     }
 
     // Update is called once per frame

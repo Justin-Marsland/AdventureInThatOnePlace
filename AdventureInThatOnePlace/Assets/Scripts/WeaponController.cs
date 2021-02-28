@@ -4,29 +4,39 @@ using UnityEngine;
 
 public class WeaponController : MonoBehaviour
 {
-    Animator parentAni;
-    float movement;
+
+    public static WeaponController instance;
+    private void Awake()
+    {
+        instance = this;
+    }
     class Weapon
     {
-        float coolDown;
-        float damage;
-        float attackDuration;
+        [SerializeField]
+        public float coolDown;
+        [SerializeField]
+        public float damage;
+        [SerializeField]
+        public float attackDuration;
+        public Weapon(float _coolDown, float _damage, float _attackDuration)
+        {
+            coolDown = _coolDown;
+            damage = _damage;
+            attackDuration = _attackDuration;
+        }
     }
 
     // Start is called before the first frame update
 
     void Start()
     {
-        //parentAni = GetComponentInParent();
+        Weapon dagger = new Weapon(0.001f, 1f, 0.4f);
+        Weapon broadSword = new Weapon(0.01f, 1f, 0.6f);
     }
 
     // Update is called once per frame
     void Update()
     {
-        /*if (movement.x == 1 || movement.x == -1 || movement.y == 1 || movement.y == -1)
-        {
-            myAnimator.SetFloat("lastMoveX", movement.x);
-            myAnimator.SetFloat("lastMoveY", movement.y);
-        }*/
+
     }
 }
