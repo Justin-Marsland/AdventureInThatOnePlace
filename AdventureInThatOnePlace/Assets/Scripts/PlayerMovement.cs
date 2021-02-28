@@ -99,13 +99,14 @@ public class PlayerMovement : MonoBehaviour
                 isAttacking = false;
             }
         }
-        if(Input.GetMouseButtonDown(0))
+        if(Input.GetMouseButtonDown(0) && CooldownController.instance.isFull())
         {
             attackCounter = attackTime;
             //AttackDir = transform.position;
             //currentState = State.Attacking;
             myAnimator.SetBool("isAttacking", true);
             isAttacking = true;
+            CooldownController.instance.UseCooldown(100);
         }
     }
 }
