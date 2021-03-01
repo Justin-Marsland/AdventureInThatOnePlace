@@ -4,11 +4,28 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public static PlayerMovement Instance { get; private set; }
+
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
     Vector2 movement;
+
     public Animator myAnimator;
     public bool facingRight = true;
+
+    [SerializeField]
+    GameObject [] weapon;
+
+    private float attackTime = .4f; //This will change to the Weapon class
+    private float attackCounter = .25f; 
+    private bool isAttacking;
+
+    private void Awake()
+    {
+        Instance = this;
+        rb = GetComponent<Rigidbody2D>();
+    }
+
     // Update is called once per frame
     private void Start()
     {
@@ -16,52 +33,19 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        //Input
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-
-        myAnimator.SetFloat("Horizontal", movement.x);
-        myAnimator.SetFloat("Vertical", movement.y);
-        myAnimator.SetFloat("Speed", movement.sqrMagnitude);
-        if(movement.x > 0)
-        {
-            myAnimator.SetBool("IsRight", true);
-            myAnimator.SetBool("IsLeft", false);
-            myAnimator.SetBool("IsUp", false);
-            myAnimator.SetBool("IsDown", false);
-        }
-        else if(movement.x < 0)
-        {
-            myAnimator.SetBool("IsRight", false);
-            myAnimator.SetBool("IsLeft", true);
-            myAnimator.SetBool("IsUp", false);
-            myAnimator.SetBool("IsDown", false);
-        }
-        else if(movement.y > 0)
-        {
-            myAnimator.SetBool("IsRight", false);
-            myAnimator.SetBool("IsLeft", false);
-            myAnimator.SetBool("IsUp", true);
-            myAnimator.SetBool("IsDown", false);
-        }
-        else if(movement.y < 0)
-        {
-            myAnimator.SetBool("IsRight", false);
-            myAnimator.SetBool("IsLeft", false);
-            myAnimator.SetBool("IsUp", false);
-            myAnimator.SetBool("IsDown", true);
-        }
-
+        Movement();
+        CharacterAttack();
+        SwitchWeapon();
     }
     private void FixedUpdate()
     {
         //Movement
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-        float h = Input.GetAxis("Horizontal");
-        if (h > 0 && !facingRight)
-            Flip();
-        else if (h < 0 && facingRight)
-            Flip();
+            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+            float h = Input.GetAxis("Horizontal");
+            if (h > 0 && !facingRight)
+                Flip();
+            else if (h < 0 && facingRight)
+                Flip();
     }
     void Flip()
     {
@@ -69,5 +53,70 @@ public class PlayerMovement : MonoBehaviour
         Vector3 theScale = transform.localScale;
         theScale.x *= -1;
         transform.localScale = theScale;
+    }
+    private void Movement()
+    {
+        movement.x = Input.GetAxisRaw("Horizontal");
+        movement.y = Input.GetAxisRaw("Vertical");
+
+        myAnimator.SetFloat("Horizontal", movement.x);
+        myAnimator.SetFloat("Vertical", movement.y);
+        myAnimator.SetFloat("Speed", movement.sqrMagnitude);
+
+        if(movement.x == 1 || movement.x == -1 || movement.y == 1 || movement.y == -1)
+        {
+            myAnimator.SetFloat("lastMoveX", movement.x);
+            myAnimator.SetFloat("lastMoveY", movement.y);
+        }
+
+    }
+    private void CharacterAttack()
+    {
+        if(isAttacking)
+        {
+            movement = Vector2.zero;
+            attackCounter -= Time.deltaTime;
+            if(attackCounter <= 0)
+            {
+                myAnimator.SetBool("isAttacking", false);
+                isAttacking = false;
+            }
+        }
+        if(Input.GetMouseButtonDown(0) && CooldownController.instance.isFull())
+        {
+            attackCounter = attackTime;
+            //currentState = State.Attacking;
+            myAnimator.SetBool("isAttacking", true);
+            isAttacking = true;
+            CooldownController.instance.UseCooldown(100);
+        }
+    }
+    private void SwitchWeapon()
+    {
+        if(CooldownController.instance.isFull() == true)
+        {
+            GameObject selectedWeapon = weapon[WeaponSwitching.instance.selectedWeapon];
+            CooldownController.instance.ChangeWeapon(selectedWeapon.GetComponent<Weapon>().coolDown);
+            attackTime = selectedWeapon.GetComponent<Weapon>().attackDuration;
+        }
+        if (WeaponSwitching.instance.selectedWeapon == 0)
+        {
+            myAnimator.SetBool("Dagger", true);
+            myAnimator.SetBool("Broadsword", false);
+        }
+        else if (WeaponSwitching.instance.selectedWeapon == 1) //Every other weapon will default to broadsword, since there's nothing for every other weapon
+        {
+            myAnimator.SetBool("Dagger", false);
+            myAnimator.SetBool("Broadsword", true);
+        }
+        else if (WeaponSwitching.instance.selectedWeapon == 2)
+        {
+
+        }
+        else if (WeaponSwitching.instance.selectedWeapon == 3)
+        {
+
+        }
+
     }
 }
