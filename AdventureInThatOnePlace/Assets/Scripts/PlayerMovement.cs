@@ -16,14 +16,19 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     GameObject [] weapon;
 
+    GameObject selectedWeapon;
+
     private float attackTime = .4f; //This will change to the Weapon class
     private float attackCounter = .25f; 
     private bool isAttacking;
+
+
 
     private void Awake()
     {
         Instance = this;
         rb = GetComponent<Rigidbody2D>();
+        selectedWeapon = weapon[0];
     }
 
     // Update is called once per frame
@@ -40,12 +45,12 @@ public class PlayerMovement : MonoBehaviour
     private void FixedUpdate()
     {
         //Movement
-            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-            float h = Input.GetAxis("Horizontal");
-            if (h > 0 && !facingRight)
-                Flip();
-            else if (h < 0 && facingRight)
-                Flip();
+        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+        float h = Input.GetAxis("Horizontal");
+        if (h > 0 && !facingRight)
+            Flip();
+        else if (h < 0 && facingRight)
+            Flip();
     }
     void Flip()
     {
@@ -85,7 +90,6 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetMouseButtonDown(0) && CooldownController.instance.isFull())
         {
             attackCounter = attackTime;
-            //currentState = State.Attacking;
             myAnimator.SetBool("isAttacking", true);
             isAttacking = true;
             CooldownController.instance.UseCooldown(100);
@@ -95,7 +99,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(CooldownController.instance.isFull() == true)
         {
-            GameObject selectedWeapon = weapon[WeaponSwitching.instance.selectedWeapon];
+            selectedWeapon = weapon[WeaponSwitching.instance.selectedWeapon];
             CooldownController.instance.ChangeWeapon(selectedWeapon.GetComponent<Weapon>().coolDown);
             attackTime = selectedWeapon.GetComponent<Weapon>().attackDuration;
         }
@@ -111,12 +115,11 @@ public class PlayerMovement : MonoBehaviour
         }
         else if (WeaponSwitching.instance.selectedWeapon == 2)
         {
-
+            //Greatsword
         }
         else if (WeaponSwitching.instance.selectedWeapon == 3)
         {
-
+            //Spear
         }
-
     }
 }

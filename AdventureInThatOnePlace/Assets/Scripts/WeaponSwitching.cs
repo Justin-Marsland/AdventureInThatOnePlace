@@ -6,6 +6,8 @@ public class WeaponSwitching : MonoBehaviour
 {
     [SerializeField]
     public int selectedWeapon = 0;
+
+    public int numWeapons = 1; //Starting dagger
     static public WeaponSwitching instance { get; private set; }
     // Start is called before the first frame update
 
@@ -17,6 +19,7 @@ public class WeaponSwitching : MonoBehaviour
     void Start()
     {
         SelectWeapon();
+        numWeapons = 2; //For debugging purposes
     }
 
     // Update is called once per frame
@@ -55,7 +58,7 @@ public class WeaponSwitching : MonoBehaviour
         {
             selectedWeapon = 3;
         }
-            if (previousSelectedWeapon != selectedWeapon)
+        if (previousSelectedWeapon != selectedWeapon)
         {
             SelectWeapon();
         }
