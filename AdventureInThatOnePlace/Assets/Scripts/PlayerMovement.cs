@@ -13,6 +13,9 @@ public class PlayerMovement : MonoBehaviour
     public Animator myAnimator;
     public bool facingRight = true;
 
+    [SerializeField]
+    GameObject [] weapon;
+
     private float attackTime = .4f; //This will change to the Weapon class
     private float attackCounter = .25f; 
     private bool isAttacking;
@@ -90,6 +93,12 @@ public class PlayerMovement : MonoBehaviour
     }
     private void SwitchWeapon()
     {
+        if(CooldownController.instance.isFull() == true)
+        {
+            GameObject selectedWeapon = weapon[WeaponSwitching.instance.selectedWeapon];
+            CooldownController.instance.ChangeWeapon(selectedWeapon.GetComponent<Weapon>().coolDown);
+            attackTime = selectedWeapon.GetComponent<Weapon>().attackDuration;
+        }
         if (WeaponSwitching.instance.selectedWeapon == 0)
         {
             myAnimator.SetBool("Dagger", true);
@@ -108,5 +117,6 @@ public class PlayerMovement : MonoBehaviour
         {
 
         }
+
     }
 }

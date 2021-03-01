@@ -41206,6 +41206,26 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &453081819 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 453081819, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+  m_PrefabInstance: {fileID: 628129976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &453081820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 453081819}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3883f2a61c9b73143ade260029f60af3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coolDown: 0
+  damage: 0
+  attackDuration: 0
 --- !u!1 &501604024
 GameObject:
   m_ObjectHideFlags: 0
@@ -54247,6 +54267,26 @@ PrefabInstance:
       propertyPath: hearts.Array.data[2]
       value: 
       objectReference: {fileID: 1002628513}
+    - target: {fileID: 24165197944415058, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: weapon.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 24165197944415058, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: weapon.Array.data[0]
+      value: 
+      objectReference: {fileID: 707616778}
+    - target: {fileID: 24165197944415058, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: weapon.Array.data[1]
+      value: 
+      objectReference: {fileID: 1042347817}
+    - target: {fileID: 24165197944415058, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: weapon.Array.data[2]
+      value: 
+      objectReference: {fileID: 983216883}
+    - target: {fileID: 24165197944415058, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: weapon.Array.data[3]
+      value: 
+      objectReference: {fileID: 453081819}
     - target: {fileID: 24165197944415059, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
       propertyPath: m_Name
       value: Player
@@ -54295,8 +54335,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 695561078220817815, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 720421850, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+    - {fileID: 628129978, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+--- !u!1 &707616778 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7003290356808490936, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+  m_PrefabInstance: {fileID: 628129976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &707616780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 707616778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3883f2a61c9b73143ade260029f60af3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coolDown: 0.001
+  damage: 1
+  attackDuration: 0.4
 --- !u!1 &720421841 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 24165197944415059, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
@@ -54705,6 +54771,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 941324459}
   m_CullTransparentMesh: 1
+--- !u!1 &983216883 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3862543812865384688, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+  m_PrefabInstance: {fileID: 628129976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &983216885
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 983216883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3883f2a61c9b73143ade260029f60af3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coolDown: 0
+  damage: 0
+  attackDuration: 0
 --- !u!1 &1002628511
 GameObject:
   m_ObjectHideFlags: 0
@@ -54780,6 +54866,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1002628511}
   m_CullTransparentMesh: 1
+--- !u!1 &1042347817 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 695561078220817815, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+  m_PrefabInstance: {fileID: 628129976}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1042347819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042347817}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3883f2a61c9b73143ade260029f60af3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  coolDown: 0.01
+  damage: 1
+  attackDuration: 0.4
 --- !u!1 &1186977715
 GameObject:
   m_ObjectHideFlags: 0

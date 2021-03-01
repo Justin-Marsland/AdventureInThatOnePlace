@@ -27,6 +27,11 @@ public class CooldownController : MonoBehaviour
         cooldownBar.value = max;
     }
 
+    public void ChangeWeapon(float newRegenTick)
+    {
+        regenTick = new WaitForSeconds(newRegenTick);
+    }
+
     public void UseCooldown(int amount)
     {
         if(current - amount >= 0)
