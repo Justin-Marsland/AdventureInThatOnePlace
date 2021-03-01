@@ -5,8 +5,15 @@ using UnityEngine;
 public class WeaponSwitching : MonoBehaviour
 {
     [SerializeField]
-    int selectedWeapon = 0;
+    public int selectedWeapon = 0;
+    static public WeaponSwitching instance { get; private set; }
     // Start is called before the first frame update
+
+    private void Awake()
+    {
+        instance = this;
+    }
+
     void Start()
     {
         SelectWeapon();
@@ -49,7 +56,26 @@ public class WeaponSwitching : MonoBehaviour
             selectedWeapon = 3;
         }
 
-        if (previousSelectedWeapon != selectedWeapon)
+        /*if(selectedWeapon == 0)
+        {
+            weaponAnimator.SetBool("Dagger", true);
+            weaponAnimator.SetBool("Broadsword", false);
+        }
+        else if (selectedWeapon == 1 || selectedWeapon == 2 || selectedWeapon == 3) //Every other weapon defaults to broadsword, since there's nothing for every other weapon
+        {
+            weaponAnimator.SetBool("Dagger", false);
+            weaponAnimator.SetBool("Broadsword", true);
+        }
+        /*else if (selectedWeapon == 2)
+        {
+
+        }
+        else if (selectedWeapon == 3)
+        {
+
+        }*/
+
+            if (previousSelectedWeapon != selectedWeapon)
         {
             SelectWeapon();
         }

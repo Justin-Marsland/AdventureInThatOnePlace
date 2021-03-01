@@ -21,7 +21,6 @@ public class PlayerMovement : MonoBehaviour
     {
         Instance = this;
         rb = GetComponent<Rigidbody2D>();
-        //currentState = State.Normal;
     }
 
     // Update is called once per frame
@@ -31,30 +30,19 @@ public class PlayerMovement : MonoBehaviour
     }
     void Update()
     {
-        //Input
-        //switch(currentState)
-        //{
-            //case State.Normal:
-                Movement();
-                CharacterAttack();
-                //break;
-            //case State.Attacking:
-                //break;
-
-        //}
-
-
-
+        Movement();
+        CharacterAttack();
+        SwitchWeapon();
     }
     private void FixedUpdate()
     {
         //Movement
-        rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
-        float h = Input.GetAxis("Horizontal");
-        if (h > 0 && !facingRight)
-            Flip();
-        else if (h < 0 && facingRight)
-            Flip();
+            rb.MovePosition(rb.position + movement * moveSpeed * Time.fixedDeltaTime);
+            float h = Input.GetAxis("Horizontal");
+            if (h > 0 && !facingRight)
+                Flip();
+            else if (h < 0 && facingRight)
+                Flip();
     }
     void Flip()
     {
@@ -94,11 +82,31 @@ public class PlayerMovement : MonoBehaviour
         if(Input.GetMouseButtonDown(0) && CooldownController.instance.isFull())
         {
             attackCounter = attackTime;
-            //AttackDir = transform.position;
             //currentState = State.Attacking;
             myAnimator.SetBool("isAttacking", true);
             isAttacking = true;
             CooldownController.instance.UseCooldown(100);
+        }
+    }
+    private void SwitchWeapon()
+    {
+        if (WeaponSwitching.instance.selectedWeapon == 0)
+        {
+            myAnimator.SetBool("Dagger", true);
+            myAnimator.SetBool("Broadsword", false);
+        }
+        else if (WeaponSwitching.instance.selectedWeapon == 1) //Every other weapon will default to broadsword, since there's nothing for every other weapon
+        {
+            myAnimator.SetBool("Dagger", false);
+            myAnimator.SetBool("Broadsword", true);
+        }
+        else if (WeaponSwitching.instance.selectedWeapon == 2)
+        {
+
+        }
+        else if (WeaponSwitching.instance.selectedWeapon == 3)
+        {
+
         }
     }
 }

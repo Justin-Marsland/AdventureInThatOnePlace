@@ -54227,6 +54227,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 453081819, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 628129980, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: weaponAnimator
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 720421849, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
       propertyPath: hearts.Array.data[0]
       value: 
