@@ -16,7 +16,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     GameObject [] weapon;
 
-    GameObject selectedWeapon;
+    public GameObject selectedWeapon;
 
     private float attackTime = .4f; //This will change to the Weapon class
     private float attackCounter = .25f; 
