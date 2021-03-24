@@ -41523,7 +41523,7 @@ GameObject:
   - component: {fileID: 319751183}
   - component: {fileID: 319751187}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: PauseCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -41588,7 +41588,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 0
   m_SortingLayerID: 0
-  m_SortingOrder: 0
+  m_SortingOrder: 1
   m_TargetDisplay: 0
 --- !u!224 &319751186
 RectTransform:
@@ -41603,7 +41603,7 @@ RectTransform:
   m_Children:
   - {fileID: 1883514836}
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
@@ -54703,6 +54703,18 @@ PrefabInstance:
       propertyPath: hearts.Array.data[2]
       value: 
       objectReference: {fileID: 1002628513}
+    - target: {fileID: 1247464595, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1277285910, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2104513563, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 24165197944415059, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
       propertyPath: m_Name
       value: Player
@@ -54751,7 +54763,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 707616781, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
 --- !u!1 &720421841 stripped
 GameObject:
@@ -55503,7 +55516,7 @@ GameObject:
   - component: {fileID: 1186977717}
   - component: {fileID: 1186977716}
   m_Layer: 5
-  m_Name: Canvas
+  m_Name: HeadsUpCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -55561,7 +55574,7 @@ Canvas:
   m_RenderMode: 0
   m_Camera: {fileID: 0}
   m_PlaneDistance: 100
-  m_PixelPerfect: 0
+  m_PixelPerfect: 1
   m_ReceivesEvents: 1
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
@@ -55589,7 +55602,7 @@ RectTransform:
   - {fileID: 1888305948}
   - {fileID: 1312849947}
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}

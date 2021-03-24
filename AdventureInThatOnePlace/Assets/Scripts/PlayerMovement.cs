@@ -73,19 +73,21 @@ public class PlayerMovement : MonoBehaviour
     }
     private void Movement()
     {
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-
-        myAnimator.SetFloat("Horizontal", movement.x);
-        myAnimator.SetFloat("Vertical", movement.y);
-        myAnimator.SetFloat("Speed", movement.sqrMagnitude);
-
-        if(movement.x == 1 || movement.x == -1 || movement.y == 1 || movement.y == -1)
+        if(!PauseMenu.isPaused) //Disable movement if paused
         {
-            myAnimator.SetFloat("lastMoveX", movement.x);
-            myAnimator.SetFloat("lastMoveY", movement.y);
-        }
+            movement.x = Input.GetAxisRaw("Horizontal");
+            movement.y = Input.GetAxisRaw("Vertical");
 
+            myAnimator.SetFloat("Horizontal", movement.x);
+            myAnimator.SetFloat("Vertical", movement.y);
+            myAnimator.SetFloat("Speed", movement.sqrMagnitude);
+
+            if (movement.x == 1 || movement.x == -1 || movement.y == 1 || movement.y == -1)
+            {
+                myAnimator.SetFloat("lastMoveX", movement.x);
+                myAnimator.SetFloat("lastMoveY", movement.y);
+            }
+        }
     }
     private void CharacterAttack()
     {
@@ -99,7 +101,7 @@ public class PlayerMovement : MonoBehaviour
                 isAttacking = false;
             }
         }
-        if(Input.GetMouseButtonDown(0) && CooldownController.instance.isFull())
+        if(Input.GetMouseButtonDown(0) && CooldownController.instance.isFull() && !PauseMenu.isPaused)
         {
             attackCounter = attackTime;
             myAnimator.SetBool("isAttacking", true);
