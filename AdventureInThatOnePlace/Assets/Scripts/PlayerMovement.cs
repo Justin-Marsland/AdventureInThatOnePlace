@@ -29,12 +29,24 @@ public class PlayerMovement : MonoBehaviour
         Instance = this;
         rb = GetComponent<Rigidbody2D>();
         selectedWeapon = weapon[0];
+        myAnimator.SetFloat("lastMoveY", 1);
+        Cursor.lockState = CursorLockMode.Locked;
+        Cursor.visible = true;
     }
 
     // Update is called once per frame
     private void Start()
     {
         
+    }
+
+    public static void CursorVisibility(bool input)
+    {
+        Cursor.visible = input;
+        if(input == false)
+            Cursor.lockState = CursorLockMode.Locked;
+        else
+            Cursor.lockState = CursorLockMode.None;
     }
     void Update()
     {

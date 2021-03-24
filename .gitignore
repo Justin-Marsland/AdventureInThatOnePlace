@@ -50,3 +50,4 @@ sysinfo.txt
 # Builds
 *.apk
 *.unitypackage
+AdventureInThatOnePlace/Assets/Animation/Player.controller
