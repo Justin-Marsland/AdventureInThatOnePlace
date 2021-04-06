@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16229 MB
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16245 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,555 +11,798 @@ C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/TheSh/OneDrive/Documents/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace
+C:/Users/Bioni/OneDrive/Desktop/CSC 452/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53930
-Successfully changed project path to: C:/Users/TheSh/OneDrive/Documents/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace
-C:/Users/TheSh/OneDrive/Documents/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace
+64338
+Successfully changed project path to: C:/Users/Bioni/OneDrive/Desktop/CSC 452/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace
+C:/Users/Bioni/OneDrive/Desktop/CSC 452/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 43.93 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 56.00 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/TheSh/OneDrive/Documents/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Bioni/OneDrive/Desktop/CSC 452/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f91)
+    Renderer: NVIDIA GeForce GTX 1050 (ID=0x1c8d)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   27.21.14.6109
+    VRAM:     4021 MB
+    Driver:   24.21.13.9836
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56728
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56064
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001764 seconds.
+Registered in 0.002023 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.76 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 60.98 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.931 seconds
+- Completed reload, in  1.432 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001032 seconds.
+Registered in 0.001146 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 44.80 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 54.93 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.841 seconds
+- Completed reload, in  1.250 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1844 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.8 MB.
-System memory in use after: 87.8 MB.
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2286.
-Total: 2.049000 ms (FindLiveObjects: 0.183800 ms CreateObjectMapping: 0.106900 ms MarkObjects: 1.665300 ms  DeleteObjects: 0.091900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/RF Castle/Sliced/decorative.png
-  artifactKey: Guid(9603be6d9ac69924f945566fb9497bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/Sliced/decorative.png using Guid(9603be6d9ac69924f945566fb9497bde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6bc4727414bc0b28217214d6d020dbf') in 0.549031 seconds
-  Import took 0.552870 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2290.
+Total: 2.865900 ms (FindLiveObjects: 0.244300 ms CreateObjectMapping: 0.120900 ms MarkObjects: 2.246200 ms  DeleteObjects: 0.253000 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/RF Castle/Sliced
-  artifactKey: Guid(2583ae2598f98424c9e9527afeb3ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/Sliced using Guid(2583ae2598f98424c9e9527afeb3ce20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea2a4b6f9cc68377574be547c0ad02d8') in 0.007246 seconds
-  Import took 0.010020 seconds .
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back
+  artifactKey: Guid(1a7df8290d95aa74e825f624bcc00832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back using Guid(1a7df8290d95aa74e825f624bcc00832) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b378612ca048cdecd9a455887b0c6f') in 0.027266 seconds
+  Import took 0.035207 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/RF Castle/Sliced/mainlevbuild.png
-  artifactKey: Guid(d21555ce72e390f49ba41fd54c373b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/Sliced/mainlevbuild.png using Guid(d21555ce72e390f49ba41fd54c373b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'badd4098b25c083d44a54f6230ce8b97') in 1.040445 seconds
-  Import took 1.046927 seconds .
+  Time since last request: 1.545698 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side
+  artifactKey: Guid(0fe2ba224c1408c4db074ed0ddef522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side using Guid(0fe2ba224c1408c4db074ed0ddef522f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '390ad20c610c22828cc81a027aab9db9') in 0.010476 seconds
+  Import took 0.014220 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 23.579153 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A
-  artifactKey: Guid(fb0793ba43ead8c4a89d62e19ce3e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A using Guid(fb0793ba43ead8c4a89d62e19ce3e04e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be929fc7783235fbc9bb494aedeffb6d') in 0.010304 seconds
-  Import took 0.013468 seconds .
+  Time since last request: 0.831423 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front
+  artifactKey: Guid(9d9df836fd958694baacc5054aaef974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front using Guid(9d9df836fd958694baacc5054aaef974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d3205822eb1dccbe3c5d258cbbf4a9') in 0.010319 seconds
+  Import took 0.015127 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.050554 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png
-  artifactKey: Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Close Button.png using Guid(11277a3f23988ec47908362d708edaa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a72b06736644596aa6c5d558c041628') in 0.029637 seconds
-  Import took 0.032441 seconds .
+  Time since last request: 2.167329 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-1.png
+  artifactKey: Guid(242c9720a0db3e0479d8ae69ddefff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-1.png using Guid(242c9720a0db3e0479d8ae69ddefff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8b958def01fb1118097f8d3de67c21f') in 0.215688 seconds
+  Import took 0.220756 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png
-  artifactKey: Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big.png using Guid(2be7b70e984b51444aca9c12ae4723a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3232762f4371261e020a6bcffed87b47') in 0.029957 seconds
-  Import took 0.032722 seconds .
+  Time since last request: 0.000357 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-5.png
+  artifactKey: Guid(6b10e4901c702a04487d7b9d66f52c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-5.png using Guid(6b10e4901c702a04487d7b9d66f52c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4069536d0ee8ca73c9c82e67d313244') in 0.029890 seconds
+  Import took 0.035168 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png
-  artifactKey: Guid(8eb69fafe4f719b49bb2dd1a7358aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small Set.png using Guid(8eb69fafe4f719b49bb2dd1a7358aaaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1504426f98a2e20dbd9ad558b46255') in 0.032310 seconds
-  Import took 0.034870 seconds .
+  Time since last request: 0.000401 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-2.png
+  artifactKey: Guid(d33c05af1556c5d4a88bdaecd7710a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-2.png using Guid(d33c05af1556c5d4a88bdaecd7710a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1111337f2298558f1b1f63ade667add') in 0.030358 seconds
+  Import took 0.034433 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png
-  artifactKey: Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large stone.png using Guid(7066e0747291df44fa5c2bf93bee3a6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff0bd4d2e0b7a0e2224aa62efef76549') in 0.045300 seconds
-  Import took 0.047883 seconds .
+  Time since last request: 0.000323 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-6.png
+  artifactKey: Guid(0c5b385b7ccd5b142a67ab00defbb916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-6.png using Guid(0c5b385b7ccd5b142a67ab00defbb916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fe973e178d779181360b38e820a5925') in 0.032877 seconds
+  Import took 0.038598 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png
-  artifactKey: Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel_Pressed.png using Guid(9494e936ef153d148aaddfa6db5fb773) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3535629b23e1c48858f06738ec67975') in 0.029022 seconds
-  Import took 0.031765 seconds .
+  Time since last request: 0.000391 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png
+  artifactKey: Guid(81aca193fb4f3344da2d2a49bd8c6f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png using Guid(81aca193fb4f3344da2d2a49bd8c6f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06c9072fc9c9f975d472e7caae081b5f') in 0.027866 seconds
+  Import took 0.032288 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png
-  artifactKey: Guid(4d6a99baee23b654f9e4bb672ae0b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  empty.png using Guid(4d6a99baee23b654f9e4bb672ae0b438) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d1038e0e8d3a0985635174abed820c3') in 0.030411 seconds
-  Import took 0.033369 seconds .
+  Time since last request: 0.000330 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-4.png
+  artifactKey: Guid(29991a9eef49fcd418ba037b69ef6711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-4.png using Guid(29991a9eef49fcd418ba037b69ef6711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e831e5dd5fbc69428ab1a515be7909') in 0.030731 seconds
+  Import took 0.034614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 91.525279 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-2.png
+  artifactKey: Guid(d33c05af1556c5d4a88bdaecd7710a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-2.png using Guid(d33c05af1556c5d4a88bdaecd7710a16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c12155bfb80274398a044a0ad0600871') in 0.028851 seconds
+  Import took 0.033829 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-5.png
+  artifactKey: Guid(6b10e4901c702a04487d7b9d66f52c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-5.png using Guid(6b10e4901c702a04487d7b9d66f52c9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c620cac7605bb9e047b1d40a5aec92') in 0.022318 seconds
+  Import took 0.026704 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000425 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-6.png
+  artifactKey: Guid(0c5b385b7ccd5b142a67ab00defbb916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-6.png using Guid(0c5b385b7ccd5b142a67ab00defbb916) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d7b49e02ef3d62baea68b51577a676e') in 0.022003 seconds
+  Import took 0.026770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000304 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png
+  artifactKey: Guid(81aca193fb4f3344da2d2a49bd8c6f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png using Guid(81aca193fb4f3344da2d2a49bd8c6f47) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1a5e3ecb06b1a76b41b44c60bd3c0ee') in 0.019293 seconds
+  Import took 0.025067 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-1.png
+  artifactKey: Guid(242c9720a0db3e0479d8ae69ddefff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-1.png using Guid(242c9720a0db3e0479d8ae69ddefff14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba96d26578c9226a2292f5a2e17e7036') in 0.029395 seconds
+  Import took 0.033457 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000338 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-4.png
+  artifactKey: Guid(29991a9eef49fcd418ba037b69ef6711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-4.png using Guid(29991a9eef49fcd418ba037b69ef6711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9458ca07c169c167389ef5d307e8a134') in 0.020520 seconds
+  Import took 0.025711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003765 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-4.png
+  artifactKey: Guid(29991a9eef49fcd418ba037b69ef6711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-4.png using Guid(29991a9eef49fcd418ba037b69ef6711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9458ca07c169c167389ef5d307e8a134') in 0.014691 seconds
+  Import took 0.018880 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 69.395607 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/pixil-frame-0 (67).png
+  artifactKey: Guid(f84a575f681d31641bfd1c6213c18266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/pixil-frame-0 (67).png using Guid(f84a575f681d31641bfd1c6213c18266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32ba047f5d8ab62fe866003f585111c') in 0.038088 seconds
+  Import took 0.044484 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.963116 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png
+  artifactKey: Guid(f84a575f681d31641bfd1c6213c18266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png using Guid(f84a575f681d31641bfd1c6213c18266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9a7e1feafb116c88f831681491a908') in 0.014412 seconds
+  Import took 0.020269 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005643 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png
+  artifactKey: Guid(f84a575f681d31641bfd1c6213c18266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png using Guid(f84a575f681d31641bfd1c6213c18266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9a7e1feafb116c88f831681491a908') in 0.017194 seconds
+  Import took 0.020580 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.220935 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png
+  artifactKey: Guid(f84a575f681d31641bfd1c6213c18266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png using Guid(f84a575f681d31641bfd1c6213c18266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2daef86654aa4b57c2641f90ec254ab7') in 0.018353 seconds
+  Import took 0.022052 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005467 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png
+  artifactKey: Guid(f84a575f681d31641bfd1c6213c18266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png using Guid(f84a575f681d31641bfd1c6213c18266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2daef86654aa4b57c2641f90ec254ab7') in 0.014903 seconds
+  Import took 0.020029 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.911641 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png
+  artifactKey: Guid(f84a575f681d31641bfd1c6213c18266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png using Guid(f84a575f681d31641bfd1c6213c18266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9616a7869e2290e7f3fb864f646a8567') in 0.013867 seconds
+  Import took 0.017758 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009316 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png
+  artifactKey: Guid(f84a575f681d31641bfd1c6213c18266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-front/hero-melee-front-3.png using Guid(f84a575f681d31641bfd1c6213c18266) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9616a7869e2290e7f3fb864f646a8567') in 0.015609 seconds
+  Import took 0.020305 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001373 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.289 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 89.6 MB.
+System memory in use after: 89.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2299.
+Total: 2.479600 ms (FindLiveObjects: 0.378600 ms CreateObjectMapping: 0.125400 ms MarkObjects: 1.915200 ms  DeleteObjects: 0.045700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001182 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.125 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 90.0 MB.
+System memory in use after: 90.1 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2302.
+Total: 3.656000 ms (FindLiveObjects: 0.398600 ms CreateObjectMapping: 0.166700 ms MarkObjects: 3.059600 ms  DeleteObjects: 0.029300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 1565.127917 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-1.png
+  artifactKey: Guid(73b68dd86013e9643b90f5e875899006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-1.png using Guid(73b68dd86013e9643b90f5e875899006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '204187127a792c0fc532f036fa85430f') in 0.244158 seconds
+  Import took 0.254155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000332 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-4.png
+  artifactKey: Guid(348988c802e3cc94996618ab4a9b22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-4.png using Guid(348988c802e3cc94996618ab4a9b22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f7870f5352c1ff3340a0fa1c5e5c995') in 0.023700 seconds
+  Import took 0.027170 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000411 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-3.png
+  artifactKey: Guid(bd56dfd28a4188641a7d1e56d18d1c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-3.png using Guid(bd56dfd28a4188641a7d1e56d18d1c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d3b9c96745c8feb4f062253c4eab69c') in 0.027851 seconds
+  Import took 0.033995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000435 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-2.png
+  artifactKey: Guid(1039a0a073258284391593789000ff12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-2.png using Guid(1039a0a073258284391593789000ff12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62582ab084b061b32586547e58e1936d') in 0.025079 seconds
+  Import took 0.029712 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 34.664359 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-1.png
+  artifactKey: Guid(73b68dd86013e9643b90f5e875899006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-1.png using Guid(73b68dd86013e9643b90f5e875899006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dfd016063d1a0397224091d9ee25a3') in 0.024811 seconds
+  Import took 0.029548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000300 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-4.png
+  artifactKey: Guid(348988c802e3cc94996618ab4a9b22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-4.png using Guid(348988c802e3cc94996618ab4a9b22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3657839bdafa1435094ee410b3cd25af') in 0.020249 seconds
+  Import took 0.028147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-5.png
+  artifactKey: Guid(3f67fb023a04482478a7dea646a568b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-5.png using Guid(3f67fb023a04482478a7dea646a568b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '458885c4a1d0113ceb92889b77e1b5d2') in 0.028498 seconds
+  Import took 0.033310 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000438 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-1.png
+  artifactKey: Guid(73b68dd86013e9643b90f5e875899006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-1.png using Guid(73b68dd86013e9643b90f5e875899006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dfd016063d1a0397224091d9ee25a3') in 0.014771 seconds
+  Import took 0.020732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000318 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-3.png
+  artifactKey: Guid(bd56dfd28a4188641a7d1e56d18d1c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-3.png using Guid(bd56dfd28a4188641a7d1e56d18d1c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '318a0a2b429bc98c9e62ba2c60109c24') in 0.019143 seconds
+  Import took 0.022652 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000380 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-2.png
+  artifactKey: Guid(1039a0a073258284391593789000ff12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-2.png using Guid(1039a0a073258284391593789000ff12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3c8aacee6be5aabd4adf0570176d3f5') in 0.017041 seconds
+  Import took 0.023531 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.285990 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-1.png
+  artifactKey: Guid(73b68dd86013e9643b90f5e875899006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-1.png using Guid(73b68dd86013e9643b90f5e875899006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d3313174d021eeaa3fb6507eb2dbb1') in 0.022083 seconds
+  Import took 0.027113 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014582 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-1.png
+  artifactKey: Guid(73b68dd86013e9643b90f5e875899006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-1.png using Guid(73b68dd86013e9643b90f5e875899006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d3313174d021eeaa3fb6507eb2dbb1') in 0.018925 seconds
+  Import took 0.022853 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000329 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-4.png
+  artifactKey: Guid(348988c802e3cc94996618ab4a9b22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-4.png using Guid(348988c802e3cc94996618ab4a9b22b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '500bad01cf96aad1f545ca7764dc80f8') in 0.018760 seconds
+  Import took 0.022645 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000395 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-5.png
+  artifactKey: Guid(3f67fb023a04482478a7dea646a568b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-5.png using Guid(3f67fb023a04482478a7dea646a568b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf79815e3c6607a4645d109298dd70b4') in 0.023516 seconds
+  Import took 0.028788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-3.png
+  artifactKey: Guid(bd56dfd28a4188641a7d1e56d18d1c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-3.png using Guid(bd56dfd28a4188641a7d1e56d18d1c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '414b008a8a4d9bad96ef73f4213b0cd5') in 0.019037 seconds
+  Import took 0.026296 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000459 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-2.png
+  artifactKey: Guid(1039a0a073258284391593789000ff12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-side/hero-melee-side-2.png using Guid(1039a0a073258284391593789000ff12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f3f4c8ce6d8a8cdf87e714b2b3e05e8') in 0.021859 seconds
+  Import took 0.026549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 181.968757 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-1.png
+  artifactKey: Guid(35539c7d64d34ff4480613f1f698944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-1.png using Guid(35539c7d64d34ff4480613f1f698944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb416681babdb14d8805f50dc5c0da72') in 0.033313 seconds
+  Import took 0.037454 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-2.png
+  artifactKey: Guid(d87437134bbb7d24d93eab22484c3ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-2.png using Guid(d87437134bbb7d24d93eab22484c3ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a97a160c9d3459f4a299c4a7ebb95309') in 0.020818 seconds
+  Import took 0.025445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000633 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-4.png
+  artifactKey: Guid(88d683358be1beb448c5b0fcf5c1bbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-4.png using Guid(88d683358be1beb448c5b0fcf5c1bbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6031a4184108bf86203a2322a662cba2') in 0.023326 seconds
+  Import took 0.027803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000422 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-3.png
+  artifactKey: Guid(5c6fb67d7b9eb2540951e37b67ae04ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-3.png using Guid(5c6fb67d7b9eb2540951e37b67ae04ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96219b663088f11f25852c334ff2d8dc') in 0.024978 seconds
+  Import took 0.029443 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 640.101743 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-1.png
+  artifactKey: Guid(35539c7d64d34ff4480613f1f698944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-1.png using Guid(35539c7d64d34ff4480613f1f698944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c369e028290406209124128b5178f112') in 0.026422 seconds
+  Import took 0.031877 seconds .
 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000342 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png
-  artifactKey: Guid(1a5d8785d80a4ee42a2a4c8632436dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium Set.png using Guid(1a5d8785d80a4ee42a2a4c8632436dc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d755a49fe0c9f1f36a37f553d94318') in 0.031286 seconds
-  Import took 0.034003 seconds .
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-2.png
+  artifactKey: Guid(d87437134bbb7d24d93eab22484c3ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-2.png using Guid(d87437134bbb7d24d93eab22484c3ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5b408c10c562899cbf4ea519dd4b1cd') in 0.017273 seconds
+  Import took 0.020915 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png
-  artifactKey: Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/notice.png using Guid(86adaa715d8969e48975ca3343ddaedd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31c3ec7551ee20cbc3d0ecab52f2eb59') in 0.026174 seconds
-  Import took 0.028840 seconds .
+  Time since last request: 0.000328 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-4.png
+  artifactKey: Guid(88d683358be1beb448c5b0fcf5c1bbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-4.png using Guid(88d683358be1beb448c5b0fcf5c1bbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed6e354af70f8bd96c60c0ead180612') in 0.016100 seconds
+  Import took 0.019934 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png
-  artifactKey: Guid(f26fa8880b3aeef4b8516c82dc12f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Yellow.png using Guid(f26fa8880b3aeef4b8516c82dc12f2a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b80d3d5d875fd2b2dc883c3bda7ecfe') in 0.027288 seconds
-  Import took 0.030155 seconds .
+  Time since last request: 0.000325 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-5.png
+  artifactKey: Guid(b6813320c0e53834da220a3a16ffa025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-5.png using Guid(b6813320c0e53834da220a3a16ffa025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb4f1ae4339e933f803931ff0a16343') in 0.029885 seconds
+  Import took 0.034831 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png
-  artifactKey: Guid(e9d4143c19529834981ac6821a04aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Red.png using Guid(e9d4143c19529834981ac6821a04aecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1e10b5e37c6fc15867271c9a1a4a6334') in 0.029351 seconds
-  Import took 0.031954 seconds .
+  Time since last request: 0.000334 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-3.png
+  artifactKey: Guid(5c6fb67d7b9eb2540951e37b67ae04ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-3.png using Guid(5c6fb67d7b9eb2540951e37b67ae04ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c304ac2757e14772b7c72607f9f7d69a') in 0.025611 seconds
+  Import took 0.032713 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png
-  artifactKey: Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium_Pressed.png using Guid(047b929beb10565479851d39b452dfb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5be0002f7a5ece206d4c75c81846639a') in 0.028654 seconds
-  Import took 0.031173 seconds .
+  Time since last request: 31.297023 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-4.png
+  artifactKey: Guid(88d683358be1beb448c5b0fcf5c1bbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-4.png using Guid(88d683358be1beb448c5b0fcf5c1bbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6daa2a5d23e97f8e89533170b46e7132') in 0.026171 seconds
+  Import took 0.031053 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png
-  artifactKey: Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start.png using Guid(ca45d178d188e034aa96a68aceeef41b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd965f621559afb05c3fe9eb93586adbd') in 0.028575 seconds
-  Import took 0.031768 seconds .
+  Time since last request: 0.002221 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-1.png
+  artifactKey: Guid(35539c7d64d34ff4480613f1f698944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-1.png using Guid(35539c7d64d34ff4480613f1f698944a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23ad06348c4193ed7738a8bc0c5ed5f') in 0.021353 seconds
+  Import took 0.025577 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000220 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png
-  artifactKey: Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Cancel.png using Guid(480144379cc9c7d47a8e19f58b0e6ee3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '681dc04e859c96986e552449cca30bf5') in 0.026271 seconds
-  Import took 0.029350 seconds .
+  Time since last request: 0.000322 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-2.png
+  artifactKey: Guid(d87437134bbb7d24d93eab22484c3ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-2.png using Guid(d87437134bbb7d24d93eab22484c3ea9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f4a6e180f94628dd6cbd9f46a53fc38') in 0.022929 seconds
+  Import took 0.028553 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png
-  artifactKey: Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Exclamation_Gray.png using Guid(f73f68fe6815f5548a6c2a61b9e49add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7655217032833f5e28b617798c856510') in 0.027682 seconds
-  Import took 0.030918 seconds .
+  Time since last request: 0.000432 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-5.png
+  artifactKey: Guid(b6813320c0e53834da220a3a16ffa025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-5.png using Guid(b6813320c0e53834da220a3a16ffa025) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c46d8cb3405397eac840f3b237b9a513') in 0.022450 seconds
+  Import took 0.026017 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png
-  artifactKey: Guid(cf1462bc694c3c249831ad8ac5293aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium  parchment.png using Guid(cf1462bc694c3c249831ad8ac5293aa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b78aa2d2d60b560a227c59d313809d') in 0.032071 seconds
-  Import took 0.034744 seconds .
+  Time since last request: 0.000355 seconds.
+  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-3.png
+  artifactKey: Guid(5c6fb67d7b9eb2540951e37b67ae04ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Greatsword/hero-melee-back/hero-melee-back-3.png using Guid(5c6fb67d7b9eb2540951e37b67ae04ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef8fcc4b5a2fecb58eb67bc4b6d9b6ce') in 0.023446 seconds
+  Import took 0.027829 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png
-  artifactKey: Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  parchment.png using Guid(a454050719005b444b59a84eaafba779) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae551635c2310290c0129e435b067a11') in 0.025919 seconds
-  Import took 0.028565 seconds .
+  Time since last request: 431.993795 seconds.
+  path: Assets/Scripts/PauseMenu.cs
+  artifactKey: Guid(b75144b57364821449eb53cbe622983d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PauseMenu.cs using Guid(b75144b57364821449eb53cbe622983d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b8637fe329b2e74c25f98fdbfa2c885') in 0.414977 seconds
+  Import took 0.420583 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000237 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png
-  artifactKey: Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Big_Pressed.png using Guid(d6a1673a31851fd4395c287261da36e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21ba2e7c6ff877b3e6e866f954a2838') in 0.026402 seconds
-  Import took 0.029717 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png
-  artifactKey: Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/Division line.png using Guid(b7d245916891cca47a0144e12a82e086) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03d645b49552546abdbf14322b859ec') in 0.024071 seconds
-  Import took 0.026751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png
-  artifactKey: Guid(43a7d98bd4222b64e933596512dc09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large  parchment.png using Guid(43a7d98bd4222b64e933596512dc09ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ba70176a3215c7d16aa6381074b35c1') in 0.032849 seconds
-  Import took 0.035395 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png
-  artifactKey: Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Medium stone.png using Guid(9a6560e5bacb40847bb1b879ede354fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d70099a312a01a10cca2b7b543d102') in 0.031231 seconds
-  Import took 0.033791 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png
-  artifactKey: Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/IRONY TITLE  Large.png using Guid(054411784c3fdf74d9db120b4a792a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47d7bac8dda1f46c152bb6fecc3806ba') in 0.029313 seconds
-  Import took 0.031909 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png
-  artifactKey: Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_New-Start_Pressed.png using Guid(2e5f47e2f71128f4282c0a4a67288751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c295fb23ab8d1efda610b2c74991df03') in 0.029617 seconds
-  Import took 0.032182 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000209 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png
-  artifactKey: Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Large Set.png using Guid(90a2dde0942123c4ebb9c4af580c5818) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e3caf242cd88d7632b085373b01899a') in 0.032769 seconds
-  Import took 0.035298 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png
-  artifactKey: Guid(efee20b64d1e73942a29ba61ce3379c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/TextBTN_Medium.png using Guid(efee20b64d1e73942a29ba61ce3379c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41b7e1b47c0c7a3f084564a0c75a66f4') in 0.026579 seconds
-  Import took 0.029418 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png
-  artifactKey: Guid(8dd861a6e819de241bca68a36048a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/UI board Small  stone.png using Guid(8dd861a6e819de241bca68a36048a6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a95da4aad797363a612a996afb8a0944') in 0.028336 seconds
-  Import took 0.030922 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.638944 seconds.
-  path: Assets/RF Castle/Animated/lightA01.png
-  artifactKey: Guid(acd060104eda63341b93267260f10b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/Animated/lightA01.png using Guid(acd060104eda63341b93267260f10b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b21f54af8a3a41c93a56f5e58955b21') in 0.023958 seconds
-  Import took 0.027622 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/RF Castle/Animated/lightB01.png
-  artifactKey: Guid(3e9496b1781d224478f1524c4f508f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/Animated/lightB01.png using Guid(3e9496b1781d224478f1524c4f508f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55f5e1ef73c5bb8edcf808b2a97a13cb') in 0.024841 seconds
-  Import took 0.027637 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000261 seconds.
-  path: Assets/RF Castle/Animated/lightA03.png
-  artifactKey: Guid(b1a46a9717089a54caa3aa13184e25b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/Animated/lightA03.png using Guid(b1a46a9717089a54caa3aa13184e25b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40077282a52af9d601354c3dac29fcf') in 0.024926 seconds
-  Import took 0.027481 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/RF Castle/Animated/lightB02.png
-  artifactKey: Guid(f839d91505d1239419b49813edd167cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/Animated/lightB02.png using Guid(f839d91505d1239419b49813edd167cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '232d88fde3b507e8e225db1945382754') in 0.024702 seconds
-  Import took 0.027264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/RF Castle/Animated/lightA02.png
-  artifactKey: Guid(ad339aa190bf36044aabbaad3c69d047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/Animated/lightA02.png using Guid(ad339aa190bf36044aabbaad3c69d047) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d8e7edee712e6f2010fddbec33508f') in 0.025312 seconds
-  Import took 0.027969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/RF Castle/Animated/lightB03.png
-  artifactKey: Guid(479445745c71d864090cc2d2289dff5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RF Castle/Animated/lightB03.png using Guid(479445745c71d864090cc2d2289dff5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9982f04acc86e4a084c10c568564683') in 0.023699 seconds
-  Import took 0.026230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.838568 seconds.
-  path: Assets/TextMesh Pro/Sprites
-  artifactKey: Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites using Guid(d0603b6d5186471b96c778c3949c7ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4cbdba0ba67d12edd4ce2ff8a820209') in 0.008305 seconds
-  Import took 0.011351 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.061879 seconds.
-  path: Assets/TextMesh Pro/Sprites/EmojiOne.png
-  artifactKey: Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Sprites/EmojiOne.png using Guid(dffef66376be4fa480fb02b19edbe903) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f103c2fe1d553510b158d237f6db3039') in 0.022272 seconds
-  Import took 0.025178 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 370.010461 seconds.
-  path: Assets/TinyRPGTown/Artwork/Sprites/Materials
-  artifactKey: Guid(52967732162a0044da040b9d3ae24522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TinyRPGTown/Artwork/Sprites/Materials using Guid(52967732162a0044da040b9d3ae24522) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d639230f520b7c2967584546d3a8ef') in 0.009060 seconds
-  Import took 0.012629 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.046075 seconds.
-  path: Assets/TinyRPGTown/Artwork/Sprites/Materials/tree.mat
-  artifactKey: Guid(890188fb0deebc04388cfde9b1f69ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TinyRPGTown/Artwork/Sprites/Materials/tree.mat using Guid(890188fb0deebc04388cfde9b1f69ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b9a8b2e5cbc48392c7755db02750665') in 0.050603 seconds
-  Import took 0.053512 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 268.422822 seconds.
-  path: Assets/Player.prefab
-  artifactKey: Guid(79143474e230b884ca35c4a1abd5b8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player.prefab using Guid(79143474e230b884ca35c4a1abd5b8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '721620527321aa49c634ac52129e9208') in 0.255390 seconds
-  Import took 0.263230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.117185 seconds.
-  path: Assets/Scripts/CameraController.cs
-  artifactKey: Guid(c6661ac069985c74ba084265e4019041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/CameraController.cs using Guid(c6661ac069985c74ba084265e4019041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35d8027dc1b0e7629bfeee5a475d1d52') in 0.017602 seconds
-  Import took 0.020522 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.509237 seconds.
-  path: Assets/Scenes/Forest1.unity
-  artifactKey: Guid(26beaf97bac964d45b20142b0fbd16a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Forest1.unity using Guid(26beaf97bac964d45b20142b0fbd16a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a885a97053e1c6d0b5d3bc5012a6c287') in 0.007868 seconds
-  Import took 0.010739 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.053476 seconds.
-  path: Assets/Scenes/Town1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Town1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de74f46c25c7f69560b40be4999bdec6') in 0.008236 seconds
-  Import took 0.011231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.629952 seconds.
-  path: Assets/Scenes/Town1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Town1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eae83542b110bece45bb662369454c9') in 0.003515 seconds
-  Import took 0.006658 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 32.684147 seconds.
-  path: Assets/Scenes/Town1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Town1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '313235525562cb51188d3d1d9f7b52b3') in 0.003305 seconds
-  Import took 0.006723 seconds .
+  Time since last request: 0.781277 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(b1c0c961c853d254f93ba120454557ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(b1c0c961c853d254f93ba120454557ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '776038028720ed00218b1e840dd89852') in 0.013994 seconds
+  Import took 0.018862 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001133 seconds.
+Registered in 0.001268 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.96 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.742 seconds
+- Completed reload, in  1.131 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.6 MB.
-System memory in use after: 93.6 MB.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.3 MB.
+System memory in use after: 93.4 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2365.
-Total: 2.069400 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.064900 ms MarkObjects: 1.727700 ms  DeleteObjects: 0.090200 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2308.
+Total: 3.133800 ms (FindLiveObjects: 0.223700 ms CreateObjectMapping: 0.146100 ms MarkObjects: 2.729900 ms  DeleteObjects: 0.032300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 95.985808 seconds.
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(b1c0c961c853d254f93ba120454557ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(b1c0c961c853d254f93ba120454557ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e1645c9b0b5133c657555ba4994b735') in 0.012694 seconds
+  Import took 0.018418 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001088 seconds.
+Registered in 0.001564 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.734 seconds
+- Completed reload, in  1.137 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.2 MB.
+System memory in use after: 93.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2311.
+Total: 2.612200 ms (FindLiveObjects: 0.333900 ms CreateObjectMapping: 0.164000 ms MarkObjects: 2.090500 ms  DeleteObjects: 0.022300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001491 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.218 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.88 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.3 MB.
+System memory in use after: 93.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2314.
+Total: 3.867900 ms (FindLiveObjects: 0.348700 ms CreateObjectMapping: 0.258600 ms MarkObjects: 3.217400 ms  DeleteObjects: 0.040600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001299 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.191 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2317.
+Total: 3.323300 ms (FindLiveObjects: 0.820000 ms CreateObjectMapping: 0.179500 ms MarkObjects: 2.292000 ms  DeleteObjects: 0.029000 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 55.387781 seconds.
+  path: Assets/Scripts/WeaponSwitching.cs
+  artifactKey: Guid(0cfa219f6ad792e4c82c8bcc17ae6617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/WeaponSwitching.cs using Guid(0cfa219f6ad792e4c82c8bcc17ae6617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389601ccafe9556021759aa484f05d95') in 0.011837 seconds
+  Import took 0.015634 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.408443 seconds.
+  path: Assets/Scripts/CooldownController.cs
+  artifactKey: Guid(3218e2e8d0284464ea61f157f8348503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/CooldownController.cs using Guid(3218e2e8d0284464ea61f157f8348503) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f0c03435c8dbaa28699af62196011eb') in 0.010130 seconds
+  Import took 0.014994 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.325965 seconds.
+  path: Assets/Scripts/EnemyAI.cs
+  artifactKey: Guid(af4c930b01b973249a141924ffe9f9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyAI.cs using Guid(af4c930b01b973249a141924ffe9f9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6bbc8e73afe28109481cc45aecfb77') in 0.011893 seconds
+  Import took 0.016211 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.293609 seconds.
+  path: Assets/Scripts/EnemyController.cs
+  artifactKey: Guid(1459a1b68be31c146908b4a8adf8878f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/EnemyController.cs using Guid(1459a1b68be31c146908b4a8adf8878f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f539c947fc189a354af83247067fcc81') in 0.013756 seconds
+  Import took 0.018099 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001257 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.273 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.81 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.7 MB.
+System memory in use after: 93.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2320.
+Total: 2.846200 ms (FindLiveObjects: 0.318500 ms CreateObjectMapping: 0.146600 ms MarkObjects: 2.355900 ms  DeleteObjects: 0.023300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001302 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.384 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.5 MB.
-System memory in use after: 93.5 MB.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.9 MB.
+System memory in use after: 94.0 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2368.
-Total: 2.186800 ms (FindLiveObjects: 0.214300 ms CreateObjectMapping: 0.067100 ms MarkObjects: 1.811900 ms  DeleteObjects: 0.092400 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 3.810300 ms (FindLiveObjects: 0.335300 ms CreateObjectMapping: 0.195900 ms MarkObjects: 3.228200 ms  DeleteObjects: 0.048000 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001171 seconds.
+Registered in 0.001345 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.756 seconds
+- Completed reload, in  1.217 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.7 MB.
-System memory in use after: 93.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2371.
-Total: 1.845300 ms (FindLiveObjects: 0.191800 ms CreateObjectMapping: 0.062700 ms MarkObjects: 1.493100 ms  DeleteObjects: 0.096500 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001037 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.746 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 94.1 MB.
-System memory in use after: 94.1 MB.
+System memory in use after: 94.2 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2374.
-Total: 2.012600 ms (FindLiveObjects: 0.175700 ms CreateObjectMapping: 0.065400 ms MarkObjects: 1.680000 ms  DeleteObjects: 0.090300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 581.251423 seconds.
-  path: Assets/Scenes/Town1.unity
-  artifactKey: Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Town1.unity using Guid(2cda990e2423bbf4892e6590ba056729) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3320e2f9e1a600a458a7125bfd796471') in 0.012351 seconds
-  Import took 0.015270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 85.018568 seconds.
-  path: Assets/Scenes/MainMenu.unity
-  artifactKey: Guid(202d9ee354f5e3b45980ef3954cf7b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/MainMenu.unity using Guid(202d9ee354f5e3b45980ef3954cf7b07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ad648166788a58b5a7d9b6a6f61ad14') in 0.008479 seconds
-  Import took 0.012044 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2326.
+Total: 2.986600 ms (FindLiveObjects: 0.374300 ms CreateObjectMapping: 0.187200 ms MarkObjects: 2.359400 ms  DeleteObjects: 0.063700 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001072 seconds.
+Registered in 0.001724 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.747 seconds
+- Completed reload, in  1.896 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1826 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 94.3 MB.
-System memory in use after: 94.3 MB.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.5 MB.
+System memory in use after: 93.6 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2377.
-Total: 2.078600 ms (FindLiveObjects: 0.200400 ms CreateObjectMapping: 0.074200 ms MarkObjects: 1.697700 ms  DeleteObjects: 0.104600 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2329.
+Total: 3.584600 ms (FindLiveObjects: 0.528300 ms CreateObjectMapping: 0.193300 ms MarkObjects: 2.828200 ms  DeleteObjects: 0.031100 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002459 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.563 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.64 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 93.8 MB.
+System memory in use after: 93.9 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2332.
+Total: 3.261700 ms (FindLiveObjects: 0.519300 ms CreateObjectMapping: 0.265500 ms MarkObjects: 2.428100 ms  DeleteObjects: 0.047100 ms)
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
