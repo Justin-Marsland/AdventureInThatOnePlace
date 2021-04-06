@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16229 MB
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 16324 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
@@ -11,2095 +11,629 @@ C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/TheSh/OneDrive/Documents/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace
+C:/Users/Christian/Desktop/School/_Sprint20201/game/another attempt/AdventureInThatOnePlace/AdventureInThatOnePlace
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50454
-Successfully changed project path to: C:/Users/TheSh/OneDrive/Documents/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace
-C:/Users/TheSh/OneDrive/Documents/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace
+55069
+Successfully changed project path to: C:/Users/Christian/Desktop/School/_Sprint20201/game/another attempt/AdventureInThatOnePlace/AdventureInThatOnePlace
+C:/Users/Christian/Desktop/School/_Sprint20201/game/another attempt/AdventureInThatOnePlace/AdventureInThatOnePlace
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 44.09 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 44.57 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/TheSh/OneDrive/Documents/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace/Assets
+[Subsystems] Discovering subsystems at path C:/Users/Christian/Desktop/School/_Sprint20201/game/another attempt/AdventureInThatOnePlace/AdventureInThatOnePlace/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce GTX 1650 with Max-Q Design (ID=0x1f91)
+    Renderer: NVIDIA GeForce GTX 970 (ID=0x13c2)
     Vendor:   
-    VRAM:     3962 MB
-    Driver:   27.21.14.6109
+    VRAM:     4043 MB
+    Driver:   27.21.14.5671
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56776
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001644 seconds.
+Registered in 0.002917 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.48 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 42.15 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.901 seconds
+- Completed reload, in  1.117 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001015 seconds.
+Registered in 0.001635 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 41.97 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 44.23 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.837 seconds
+- Completed reload, in  0.924 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1843 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 87.6 MB.
-System memory in use after: 87.6 MB.
+System memory in use after: 87.7 MB.
 
-Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2285.
-Total: 2.131700 ms (FindLiveObjects: 0.188700 ms CreateObjectMapping: 0.103600 ms MarkObjects: 1.741900 ms  DeleteObjects: 0.095900 ms)
-
-========================================================================
-Received Import Request.
-  path: Assets/New Sprite Atlas.spriteatlas
-  artifactKey: Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Sprite Atlas.spriteatlas using Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44072e75b86bc8c7767d9900c7e769a0') in 0.042864 seconds
-  Import took 0.046794 seconds .
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 2.160900 ms (FindLiveObjects: 0.215900 ms CreateObjectMapping: 0.133400 ms MarkObjects: 1.755600 ms  DeleteObjects: 0.055300 ms)
 
 ========================================================================
 Received Import Request.
-  Time since last request: 100.154962 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd
-  artifactKey: Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd using Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e804ed7d06ad1a996d3f4753664d7e') in 0.119050 seconds
-  Import took 0.123535 seconds .
+  path: Assets/Scenes/Forest1.unity
+  artifactKey: Guid(26beaf97bac964d45b20142b0fbd16a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Forest1.unity using Guid(26beaf97bac964d45b20142b0fbd16a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a330ed1641f33952dd6919045dc51b09') in 0.012566 seconds
+  Import took 0.016237 seconds .
 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png
-  artifactKey: Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png using Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee7918b62e7872bf1ab31315ad560c9') in 0.081521 seconds
-  Import took 0.084828 seconds .
+Received Prepare
+Refreshing native plugins compatible for Editor in 2.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 49.7 MB.
+System memory in use after: 49.9 MB.
 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd
-  artifactKey: Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set free.psd using Guid(1ab331a196bae1046b7a75ed7e3f6b46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5e804ed7d06ad1a996d3f4753664d7e') in 0.034373 seconds
-  Import took 0.037869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png
-  artifactKey: Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fantasy Wooden GUI  Free/normal_ui_set A/1_normal_ui_set-free.png using Guid(f3e42cb7317f6f14186e2c2267014de2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aee7918b62e7872bf1ab31315ad560c9') in 0.022857 seconds
-  Import took 0.025482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.057191 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/dog/1.png
-  artifactKey: Guid(2e9dcb0b6a3244ad9b171c6ba5bac782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/dog/1.png using Guid(2e9dcb0b6a3244ad9b171c6ba5bac782) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074c0b311375413d4c6414b2e40dd4f8') in 0.022932 seconds
-  Import took 0.026592 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/Sage/1.png
-  artifactKey: Guid(6e526ef3a847d49609da9d0cd9acb2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/Sage/1.png using Guid(6e526ef3a847d49609da9d0cd9acb2f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4a9dcdbc705a661be6ec5a2b44e31d') in 0.020247 seconds
-  Import took 0.023569 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/cap/1.png
-  artifactKey: Guid(8dfc93a197e8745b2805ed63f5b184d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/cap/1.png using Guid(8dfc93a197e8745b2805ed63f5b184d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9a92461d9eb5b7a476613faa6f609e9') in 0.022678 seconds
-  Import took 0.026487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/OldWoman/1.png
-  artifactKey: Guid(4f4a24271d363431297b5790cddf88d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/OldWoman/1.png using Guid(4f4a24271d363431297b5790cddf88d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409b7cea32abb9a2ead24c889492cc44') in 0.019187 seconds
-  Import took 0.022633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/Woman/1.png
-  artifactKey: Guid(ae95722a82f8046e083d79839425b46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/Woman/1.png using Guid(ae95722a82f8046e083d79839425b46f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330cd41b46c4978bb36a0f14fd6f6b56') in 0.019580 seconds
-  Import took 0.022782 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.171065 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/cave-trap/1.png
-  artifactKey: Guid(f18b765a6f15c40428cd3ba058609e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/cave-trap/1.png using Guid(f18b765a6f15c40428cd3ba058609e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7c9b3a93342ea1bd36350db94359882') in 0.024374 seconds
-  Import took 0.028136 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.009020 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/miner/1.png
-  artifactKey: Guid(b8c8d2c3d0f3844a482ace7ddcb2574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/miner/1.png using Guid(b8c8d2c3d0f3844a482ace7ddcb2574b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9fb18814bb6725eaf10728ab50341b') in 0.024575 seconds
-  Import took 0.027966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000307 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/waterfall/1.png
-  artifactKey: Guid(17c9beae7cdf54b60ac98cb4ccbb214d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/waterfall/1.png using Guid(17c9beae7cdf54b60ac98cb4ccbb214d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d1090c71c020e6c721004cf7ee5409d') in 0.018943 seconds
-  Import took 0.022439 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/kid/1.png
-  artifactKey: Guid(d14cecebfff034ba39a49cc38e95e1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/kid/1.png using Guid(d14cecebfff034ba39a49cc38e95e1b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '682ea759aa039d37d6c9410ed2716a96') in 0.022423 seconds
-  Import took 0.025764 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.208440 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/Girl/1.png
-  artifactKey: Guid(4225f9c79de1146c7992166dd9451c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/Girl/1.png using Guid(4225f9c79de1146c7992166dd9451c4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4723d327fe312d459aaf075917f7529c') in 0.018465 seconds
-  Import took 0.022230 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.360498 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/Sage/2.png
-  artifactKey: Guid(acb44ec92d0f84a2bbb052e8274fe447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/Sage/2.png using Guid(acb44ec92d0f84a2bbb052e8274fe447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0504714cc6a15de6e245440ac7bc663d') in 0.026799 seconds
-  Import took 0.030388 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/dog/2.png
-  artifactKey: Guid(30e6473bf56e2469c93c924ed824fd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/dog/2.png using Guid(30e6473bf56e2469c93c924ed824fd85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af5e966adeeee53d9a0ab0f3e164695e') in 0.020584 seconds
-  Import took 0.023761 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.018862 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/Girl/2.png
-  artifactKey: Guid(75c467a04d9ff4d2cb35044fccdce874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/Girl/2.png using Guid(75c467a04d9ff4d2cb35044fccdce874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b88ec684a0efd4a4e7433f83c938aff') in 0.027416 seconds
-  Import took 0.030674 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.544175 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/waterfall/2.png
-  artifactKey: Guid(f4ada3c98cb59417fae316f6fc0d6910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/waterfall/2.png using Guid(f4ada3c98cb59417fae316f6fc0d6910) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1b610d0821b7de6283e47c5211ffb08') in 0.020729 seconds
-  Import took 0.024533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/kid/2.png
-  artifactKey: Guid(5b140eab57121482e9704493866ea45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/kid/2.png using Guid(5b140eab57121482e9704493866ea45b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4256cc1ae0704027077678d967c05cfb') in 0.024393 seconds
-  Import took 0.027844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.049665 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/cave-trap/2.png
-  artifactKey: Guid(59f8be9ac32f44aa9b21128c25814868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/cave-trap/2.png using Guid(59f8be9ac32f44aa9b21128c25814868) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5ce75d38c33fa2c0a71b72b8e6a5294') in 0.016408 seconds
-  Import took 0.019847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000349 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/miner/2.png
-  artifactKey: Guid(558a03ea16cd74e36aa34b2a2c0ee4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/miner/2.png using Guid(558a03ea16cd74e36aa34b2a2c0ee4d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa8bcee57b87597b2d97342032eac360') in 0.016392 seconds
-  Import took 0.019533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.218885 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/cap/2.png
-  artifactKey: Guid(0f17fde7c6fa04a7aac3fb3e4e811ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/cap/2.png using Guid(0f17fde7c6fa04a7aac3fb3e4e811ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f615fcb9350158604ac76555030271') in 0.017713 seconds
-  Import took 0.020976 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000409 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/OldWoman/2.png
-  artifactKey: Guid(0836946cc1a4b4fc2b64771e1a023225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/OldWoman/2.png using Guid(0836946cc1a4b4fc2b64771e1a023225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbbe4b42719577b47d5395fa7a15d696') in 0.019222 seconds
-  Import took 0.022478 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000372 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/cap/2.png
-  artifactKey: Guid(0f17fde7c6fa04a7aac3fb3e4e811ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/cap/2.png using Guid(0f17fde7c6fa04a7aac3fb3e4e811ca5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68f615fcb9350158604ac76555030271') in 0.010499 seconds
-  Import took 0.013252 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/Woman/2.png
-  artifactKey: Guid(0f6fde63554e44c9b9e3a11442fb54b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/Woman/2.png using Guid(0f6fde63554e44c9b9e3a11442fb54b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a7f4eaf184192b6071e5f41a3f8bc19') in 0.016449 seconds
-  Import took 0.019864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.225466 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/waterfall/3.png
-  artifactKey: Guid(97d852ae2c4ec4fbab99a26483151dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/waterfall/3.png using Guid(97d852ae2c4ec4fbab99a26483151dce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf23e9ee1b9bd489e35491f8eb0cd9a3') in 0.031713 seconds
-  Import took 0.035593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.033620 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset
-  artifactKey: Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF.asset using Guid(8a89fa14b10d46a99122fd4f73fca9a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e84d41089ed1a5d8387f86daac4f22') in 0.083116 seconds
-  Import took 0.086849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.128464 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/misc/arrow.png
-  artifactKey: Guid(95406b6737b66479a80d172766f8bac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/misc/arrow.png using Guid(95406b6737b66479a80d172766f8bac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d21a2956f578d9bf176e1b6657f4cc') in 0.023317 seconds
-  Import took 0.027280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001788 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/misc/arrow.png
-  artifactKey: Guid(95406b6737b66479a80d172766f8bac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/misc/arrow.png using Guid(95406b6737b66479a80d172766f8bac5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9d21a2956f578d9bf176e1b6657f4cc') in 0.009336 seconds
-  Import took 0.012772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.055224 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset
-  artifactKey: Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Bangers SDF.asset using Guid(125cb55b44b24c4393181402bc6200e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceed303d1da15814e23963b71584f004') in 0.036666 seconds
-  Import took 0.040647 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/barrel.png
-  artifactKey: Guid(d3ea3e59de57b4973b90868b06ae16f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/barrel.png using Guid(d3ea3e59de57b4973b90868b06ae16f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8eba90ee9abbdb4b94feb1471620e7da') in 0.022036 seconds
-  Import took 0.024966 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.256938 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/blue.png
-  artifactKey: Guid(b3d852d4114dd47c8929406865ac0c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/blue.png using Guid(b3d852d4114dd47c8929406865ac0c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b48f02537d825d8a0b0b3f854afaa46') in 0.024592 seconds
-  Import took 0.028359 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003343 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/blue.png
-  artifactKey: Guid(b3d852d4114dd47c8929406865ac0c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/blue.png using Guid(b3d852d4114dd47c8929406865ac0c1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b48f02537d825d8a0b0b3f854afaa46') in 0.009013 seconds
-  Import took 0.013052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/bomb.png
-  artifactKey: Guid(90a177c6fcc6045b3817e7b3d2b189f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/bomb.png using Guid(90a177c6fcc6045b3817e7b3d2b189f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0b289d876494e6a7c36a566cf3367b3') in 0.021189 seconds
-  Import took 0.024946 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003067 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/boots.png
-  artifactKey: Guid(5956785b2be4a41f58f2f834de40867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/items/boots.png using Guid(5956785b2be4a41f58f2f834de40867c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f12452b028187d65b2aac572d3df865b') in 0.022325 seconds
-  Import took 0.025231 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.606828 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-cave.png
-  artifactKey: Guid(6f0a2de085751482c98698f916b8792f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-cave.png using Guid(6f0a2de085751482c98698f916b8792f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d05bee37204f8d9b33e58a1cc205b6') in 0.023713 seconds
-  Import took 0.027595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.723831 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-water/box-water1.png
-  artifactKey: Guid(0b0a39bf2771e45bd9dc2fd206e392fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-water/box-water1.png using Guid(0b0a39bf2771e45bd9dc2fd206e392fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7a0f4f0bf7270e65cefa1411372d92e') in 0.022122 seconds
-  Import took 0.025217 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.102211 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-water/box-water2.png
-  artifactKey: Guid(c57124f971e7e4342a68f146dcf3a778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-water/box-water2.png using Guid(c57124f971e7e4342a68f146dcf3a778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c69ee2ef80d31bd8b4cc02a06ab70c') in 0.021429 seconds
-  Import took 0.024747 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000530 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-water/box-water2.png
-  artifactKey: Guid(c57124f971e7e4342a68f146dcf3a778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-water/box-water2.png using Guid(c57124f971e7e4342a68f146dcf3a778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89c69ee2ef80d31bd8b4cc02a06ab70c') in 0.008678 seconds
-  Import took 0.011234 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-water/box-water3.png
-  artifactKey: Guid(4787563aed93c41f7ba595a4faaa7f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/OBJECTS/box-water/box-water3.png using Guid(4787563aed93c41f7ba595a4faaa7f80) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8166e7f7bba3be4dc127fe21ebbaae28') in 0.025780 seconds
-  Import took 0.029154 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 4.488280 seconds.
-  path: Assets/TinyRPGTown/Artwork
-  artifactKey: Guid(36a71493f2d1545c0a7d067dbb3eaf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TinyRPGTown/Artwork using Guid(36a71493f2d1545c0a7d067dbb3eaf8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5fd41a94fcba0b59c9212b10d19eaa') in 0.016503 seconds
-  Import took 0.020527 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.138082 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf
-  artifactKey: Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Anton.ttf using Guid(997a43b767814dd0a7642ec9b78cba41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4700300cb636967fb5a520d9e04d03c') in 0.034126 seconds
-  Import took 0.037574 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat
-  artifactKey: Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Drop Shadow.mat using Guid(749b9069dc4742c5bfa5c74644049926) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dd1b8be4ee4e7ab4251eda08b1988dd') in 0.100063 seconds
-  Import took 0.102992 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.146814 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat
-  artifactKey: Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Outline.mat using Guid(a00013af81304728b2be1f4309ee2433) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '231dfc72236696aec4c4daad7fdc490c') in 0.086471 seconds
-  Import took 0.089735 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000302 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat
-  artifactKey: Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Fonts & Materials/Anton SDF - Sunny Days.mat using Guid(6522f30e342599e4e9dd4cc2cc03c830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57f6c6f4c013f15ed85ee5c6f21d5c40') in 0.143884 seconds
-  Import took 0.146482 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
-  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '600b4d05f9b47415c7bc6a186c48ffca') in 0.015223 seconds
-  Import took 0.018614 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.675254 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab5db927beec09d772f0744c71b87fc') in 0.042732 seconds
-  Import took 0.046111 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006804 seconds.
-  path: Assets/TextMesh Pro/Resources/TMP Settings.asset
-  artifactKey: Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Resources/TMP Settings.asset using Guid(3f5b5dff67a942289a9defa416b206f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ab5db927beec09d772f0744c71b87fc') in 0.029717 seconds
-  Import took 0.032784 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.113329 seconds.
-  path: Assets/Tiny RPG Forest
-  artifactKey: Guid(0a56845ee30c20449a3e477d511c9efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest using Guid(0a56845ee30c20449a3e477d511c9efc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da5daf40dd0e4a7f2945cc6782e15cb1') in 0.009349 seconds
-  Import took 0.021045 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.207584 seconds.
-  path: Assets/Tiny RPG Forest/Artwork
-  artifactKey: Guid(2997bd1d056ed4d788a6a187a0745a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork using Guid(2997bd1d056ed4d788a6a187a0745a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6da1503dde1269bf1c837b785aa0d1f') in 0.004486 seconds
-  Import took 0.008559 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 55.199850 seconds.
-  path: Assets/New Sprite Atlas.spriteatlas
-  artifactKey: Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Sprite Atlas.spriteatlas using Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b9fc00d02e5a8b252b84daab0b8b39') in 0.078437 seconds
-  Import took 0.084713 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002847 seconds.
-  path: Assets/New Sprite Atlas.spriteatlas
-  artifactKey: Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Sprite Atlas.spriteatlas using Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b9fc00d02e5a8b252b84daab0b8b39') in 0.069312 seconds
-  Import took 0.074500 seconds .
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2289.
+Total: 3.124100 ms (FindLiveObjects: 0.241500 ms CreateObjectMapping: 0.141200 ms MarkObjects: 2.695500 ms  DeleteObjects: 0.035400 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001105 seconds.
+Registered in 0.001569 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.721 seconds
+- Completed reload, in  1.041 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 93.7 MB.
-System memory in use after: 93.7 MB.
-
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2339.
-Total: 1.912400 ms (FindLiveObjects: 0.182700 ms CreateObjectMapping: 0.075000 ms MarkObjects: 1.570500 ms  DeleteObjects: 0.083400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 27.205355 seconds.
-  path: Assets/SpriteAtlus.spriteatlas
-  artifactKey: Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpriteAtlus.spriteatlas using Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Invalid sprite atlas asset encountered when matching atlas for sprite npc_0. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite npc_1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite npc_2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite npc_3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite npc_4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite npc_5. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite npc_6. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite npc_7. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite npc_8. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite npc_9. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite npc_10. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite npc_11. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite rock-small. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tree. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite building-thin. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite wall-tile-right. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite building-inn. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite chest. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite wall-tile. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite barrel. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_0. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_5. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_6. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_7. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_8. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_9. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_10. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_11. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_12. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_13. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_14. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_15. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_16. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_17. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_18. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_19. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_20. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_21. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_22. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_23. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_24. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_25. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_26. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_27. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_28. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_29. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_30. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_31. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_32. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_33. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_34. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_35. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_36. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_38. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_39. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_40. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_41. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_42. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_43. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_44. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_45. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_46. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_47. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_49. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_50. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_52. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_53. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_54. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_55. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_56. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_57. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_58. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_59. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_60. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_61. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_62. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_63. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_64. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_65. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_66. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_67. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_68. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_69. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_70. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_71. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_72. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_73. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_74. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_75. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_76. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_77. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_78. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_79. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_80. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_81. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_82. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_83. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_84. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_85. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_86. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_87. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset_88. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite top-wall-tile. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite top-wall-tile-right. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite building. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite rock. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite wall-tile-left. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero_0. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero_1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero_2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero_3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero_4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero_5. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero_6. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero_7. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero_8. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero_9. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero_10. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero_11. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite top-wall-tile-left. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-back-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mole-walk-back-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-back-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite trunk. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite arrow. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-side-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-side-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-front-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite treant-walk-front-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-side-weapon-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite coin-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite coin-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-front-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mole-idle-back. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-front-weapon-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-back-weapon-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-front-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hearts-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite bush. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mole-walk-side-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-front-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-side-6-flipped. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-back-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite treant-walk-back-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite gem-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite treant-walk-front-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mole-walk-front-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-front-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-side-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite gem-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-back-5. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-side-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite treant-idle-front. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_0. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_5. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_6. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_7. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_8. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_9. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_10. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_11. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_12. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_13. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_14. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_15. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_16. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_17. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_18. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_19. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_20. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_21. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_22. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_23. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_24. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_25. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_26. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_27. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_28. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_29. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_30. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_31. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_32. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_33. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_34. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_35. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_36. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_37. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_38. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_39. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_40. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_41. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_42. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_43. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_44. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_45. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_46. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_47. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_48. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_49. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_50. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_51. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_52. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_53. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_54. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_55. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_56. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_57. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_58. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_59. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_60. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_61. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_62. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_63. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_64. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_65. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_66. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_67. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_68. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_69. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_70. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_71. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_72. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_73. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_74. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_75. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_76. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_77. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_78. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_79. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_80. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_81. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_82. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_83. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_84. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_85. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_86. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_87. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_88. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_89. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_90. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_91. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_92. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_93. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_94. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_95. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_96. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_97. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_98. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_99. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_100. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_101. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_102. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_103. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_104. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_105. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_106. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_107. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_108. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_109. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_110. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_111. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_112. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_113. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_114. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_115. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_116. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_117. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_118. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_119. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_120. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_121. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_122. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_123. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_124. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_125. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_126. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_127. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_128. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_129. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_130. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_131. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_132. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_133. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_134. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_135. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_136. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_137. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_138. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_139. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_140. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_141. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_142. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_143. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_144. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_145. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_146. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_147. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_148. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_149. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_150. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_151. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_152. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_153. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_154. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_155. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_156. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_157. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_158. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_159. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_160. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_161. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_162. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_163. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_164. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_165. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_166. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_167. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_168. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_169. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_170. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_171. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_172. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_173. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_174. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_175. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_176. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_177. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_178. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_179. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_180. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_181. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_182. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_183. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_184. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_185. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_186. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_187. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_188. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_189. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_190. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_191. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_192. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_193. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_194. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_195. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_196. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_197. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_198. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_199. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_200. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_201. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_202. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_203. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_204. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_205. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_206. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_207. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_208. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_209. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_210. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_211. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_212. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_213. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_214. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_215. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_216. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_217. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_218. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_219. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_220. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_221. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_222. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_223. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_224. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_225. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_226. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_227. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_228. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_229. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_230. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_231. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_232. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_233. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_234. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_235. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_236. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_237. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_238. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_239. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_240. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_241. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_242. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_243. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_244. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_245. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_246. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_247. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_248. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_249. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_250. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_251. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_252. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_253. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_254. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_255. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_256. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_257. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_258. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_259. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_260. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_261. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_262. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_263. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_264. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_265. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_266. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_267. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_268. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_269. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_270. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_271. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_272. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_273. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_274. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_275. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_276. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_277. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_278. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_279. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_280. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_281. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_282. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_283. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_284. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_285. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_286. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_287. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_288. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_289. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_290. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_291. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_292. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_293. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_294. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_295. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_296. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_297. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_298. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_299. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_300. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_301. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_302. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_303. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_304. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_305. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_306. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_307. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_308. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_309. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_310. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_311. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_312. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_313. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_314. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_315. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_316. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_317. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_318. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_319. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_320. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_321. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_322. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_323. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_324. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_325. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_326. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_327. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_328. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_329. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_330. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_331. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_332. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_333. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_334. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_335. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_336. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_337. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_338. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_339. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_340. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_341. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_342. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_343. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_344. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_345. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_346. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_347. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_348. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_349. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_350. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_351. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_352. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_353. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_354. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_355. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_356. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_357. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_358. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_359. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_360. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_361. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_362. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_363. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_364. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_365. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_366. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_367. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_368. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_369. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_370. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_371. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_372. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_373. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_374. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_375. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_376. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_377. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_378. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_379. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_380. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_381. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_382. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_383. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_384. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_385. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_386. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_387. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_388. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_389. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_390. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_391. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_392. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_393. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_394. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_395. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_396. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_397. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_398. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset-sliced_399. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-side-3-flipped. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-back-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-side-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-back-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-back-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mole-idle-front. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite enemy-death-5. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-front-4 1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-side-6. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-front-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite enemy-death-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-side-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite enemy-death-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite coin-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mole-walk-front-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-side-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite treant-walk-side-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-front-3 1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite treant-walk-back-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-side-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite gem-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite coin-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite treant-idle-back. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mole-walk-side-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-back-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite waterfall-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-back-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mole-walk-side-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-side-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite waterfall-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite treant-walk-front-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite enemy-death-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-side-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite treant-walk-side-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite treant-walk-back-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-back-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mole-walk-back-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-side-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-front-6. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-front-weapon-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite rock. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-idle-side. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-side-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite treant-walk-side-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-back-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-side-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-front-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-front-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite enemy-death-6. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-front-weapon-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-back-weapon-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite treant-walk-front-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite bush-tall. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-idle-back. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite treant-walk-side-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-back-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite enemy-death-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-back-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-back-weapon-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-back-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-side-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-side-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-front-5. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-back-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mole-idle-side. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-back-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-side-5. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite treant-walk-back-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mole-walk-back-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-side-2-flipped. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-side-weapon-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mole-walk-back-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tileset. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-idle-front. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-side-4-flipped. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-front-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-side-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-side-1-flipped. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-side-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite rock-monument. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hearts-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite waterfall-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-front-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tree-dried. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-front-1. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tree-orange. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-back-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mole-walk-side-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-front-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-front-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite treant-idle-side. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-back-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-side-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite sign. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-side-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-side-weapon-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite tree-pink. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-side-5-flipped. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mole-walk-front-3. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-front-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-back-6. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite mole-walk-front-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-front-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-front-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-walk-back-4. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite gem-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-attack-back-2. Please repack all your sprite atlases.
-
-Invalid sprite atlas asset encountered when matching atlas for sprite hero-melee-front-1. Please repack all your sprite atlases.
-
- -> (artifact id: 'f1eae5d6ac81202d9ebba1b5e8615ea1') in 0.109359 seconds
-  Import took 0.115635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 20.806769 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals
-  artifactKey: Guid(18e176040252547b0b2ae7537d361325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals using Guid(18e176040252547b0b2ae7537d361325) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc779d2b1587c7c0b872e6605ba7bcdf') in 0.008992 seconds
-  Import took 0.024003 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.573003 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS
-  artifactKey: Guid(98051adc007eb4b15bd97496309f5f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS using Guid(98051adc007eb4b15bd97496309f5f89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7adc18912880683be2d41f9499d23b1') in 0.008829 seconds
-  Import took 0.019242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.671196 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc
-  artifactKey: Guid(09d5215048cb74765a71d1ca13a737e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc using Guid(09d5215048cb74765a71d1ca13a737e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b89840e72f1dd3fbc16cfca6e6890e') in 0.008227 seconds
-  Import took 0.012621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.697624 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/cap
-  artifactKey: Guid(748c0d8c9db30454483485373de35feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/cap using Guid(748c0d8c9db30454483485373de35feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb4c85a1f06eeed960ea8a08a8bcf73') in 0.008344 seconds
-  Import took 0.012118 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000594 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/cap
-  artifactKey: Guid(748c0d8c9db30454483485373de35feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/CHARACTERS/npc/cap using Guid(748c0d8c9db30454483485373de35feb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb4c85a1f06eeed960ea8a08a8bcf73') in 0.003393 seconds
-  Import took 0.006297 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 7.798501 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT
-  artifactKey: Guid(a1c762fa3081d43b8aced71e6a103b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT using Guid(a1c762fa3081d43b8aced71e6a103b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6ee71fc26503e200dbf2f9d3214aa8') in 0.011357 seconds
-  Import took 0.015083 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000853 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT
-  artifactKey: Guid(a1c762fa3081d43b8aced71e6a103b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT using Guid(a1c762fa3081d43b8aced71e6a103b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd6ee71fc26503e200dbf2f9d3214aa8') in 0.003880 seconds
-  Import took 0.007291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.058756 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/eye.png
-  artifactKey: Guid(6ba7c1fd55b0e4747bf78e801332f4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/eye.png using Guid(6ba7c1fd55b0e4747bf78e801332f4f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b92efd7b389a43f2c7dc9b99da48e73b') in 0.049378 seconds
-  Import took 0.053266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000298 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/sunset.png
-  artifactKey: Guid(6b5e1946610c0427daba78d1c127a071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/sunset.png using Guid(6b5e1946610c0427daba78d1c127a071) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95bc76ba4c26a0825c714c25da7a51c4') in 0.025985 seconds
-  Import took 0.029238 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/rope-cave.png
-  artifactKey: Guid(44ca2818e5fe248209ff90a29631dacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/rope-cave.png using Guid(44ca2818e5fe248209ff90a29631dacd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc4722c461ebc8f76687f4bc5196cdb8') in 0.027162 seconds
-  Import took 0.030287 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.378410 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/tilesets
-  artifactKey: Guid(0753475e944bb4cd3bfe8ee0bb13d7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/tilesets using Guid(0753475e944bb4cd3bfe8ee0bb13d7c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '832d3ea57c98340990b1eeee38dca410') in 0.013650 seconds
-  Import took 0.017849 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.051861 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/tilesets/dungeon-tileset.png
-  artifactKey: Guid(f15472e0666d044db9bfb88bc170ad9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/tilesets/dungeon-tileset.png using Guid(f15472e0666d044db9bfb88bc170ad9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9669eae91c595cb0fc8cba1cdd7360ad') in 0.025636 seconds
-  Import took 0.029175 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/tilesets/tileset-world.png
-  artifactKey: Guid(b8814c83d33f044eaa43a507df945000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/Visuals/ENVIRONMENT/tilesets/tileset-world.png using Guid(b8814c83d33f044eaa43a507df945000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f10c79f7c6a06cbeab0db2e1cf98e44e') in 0.027280 seconds
-  Import took 0.029881 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 22.481140 seconds.
-  path: Assets/Top Down Adventure Assets/sounds/music/determination.ogg
-  artifactKey: Guid(b31d1222ed70f4868a427d4f685a5429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets/sounds/music/determination.ogg using Guid(b31d1222ed70f4868a427d4f685a5429) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c38032811b3367e5cc2cc4ea10f1456a') in 0.149785 seconds
-  Import took 0.154099 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 29.937389 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset
-  artifactKey: Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Blue to Purple - Vertical.asset using Guid(479a66fa4b094512a62b0a8e553ad95a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ad1fd244e6c3b38e6c867205e96a5f3') in 0.015278 seconds
-  Import took 0.023058 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000469 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset
-  artifactKey: Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Resources/Color Gradient Presets/Dark to Light Green - Vertical.asset using Guid(4c86a3366cd840348ebe8dc438570ee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ac5f115d4cc53a7df20fc83b04155af') in 0.012037 seconds
-  Import took 0.016864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.655024 seconds.
-  path: Assets/SpriteAtlus.spriteatlas
-  artifactKey: Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpriteAtlus.spriteatlas using Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0483f88293021a4b1f00dc6b8791782d') in 0.107654 seconds
-  Import took 0.115590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.025369 seconds.
-  path: Assets/SpriteAtlus.spriteatlas
-  artifactKey: Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpriteAtlus.spriteatlas using Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0483f88293021a4b1f00dc6b8791782d') in 0.125802 seconds
-  Import took 0.134295 seconds .
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.7 MB.
+System memory in use after: 86.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2292.
+Total: 1.929600 ms (FindLiveObjects: 0.201500 ms CreateObjectMapping: 0.062400 ms MarkObjects: 1.640100 ms  DeleteObjects: 0.023900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001060 seconds.
+Registered in 0.001694 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.46 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.723 seconds
+- Completed reload, in  1.044 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.45 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.94 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.1 MB.
-System memory in use after: 98.1 MB.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.7 MB.
+System memory in use after: 86.8 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2351.
-Total: 1.734500 ms (FindLiveObjects: 0.175000 ms CreateObjectMapping: 0.074300 ms MarkObjects: 1.398000 ms  DeleteObjects: 0.086300 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 48.670859 seconds.
-  path: Assets/Animation/Enemies/Skeleton.prefab
-  artifactKey: Guid(f1687628393276c44a56fc000cb127df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Enemies/Skeleton.prefab using Guid(f1687628393276c44a56fc000cb127df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1746ac798ecb87ed5e2a9c63b5411b3') in 0.100342 seconds
-  Import took 0.103337 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab
-  artifactKey: Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 2.prefab using Guid(fdad9d952ae84cafb74c63f2e694d042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21692f5f24d056fc8e6a97b0091457c5') in 0.059698 seconds
-  Import took 0.063106 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab
-  artifactKey: Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/Text Popup.prefab using Guid(b06f0e6c1dfa4356ac918da1bb32c603) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40238700d48e015cfc219fb7c868162e') in 0.040210 seconds
-  Import took 0.043247 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab
-  artifactKey: Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Prefabs/TextMeshPro - Prefab 1.prefab using Guid(a6e39ced0ea046bcb636c3f0b2e2a745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd13e50ec2442500a5a6fbf052ceb17ff') in 0.032230 seconds
-  Import took 0.035698 seconds .
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2295.
+Total: 2.033200 ms (FindLiveObjects: 0.338500 ms CreateObjectMapping: 0.085300 ms MarkObjects: 1.590300 ms  DeleteObjects: 0.017900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001048 seconds.
+Registered in 0.002418 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.43 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.711 seconds
+- Completed reload, in  1.066 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 86.9 MB.
+System memory in use after: 87.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2298.
+Total: 3.977100 ms (FindLiveObjects: 0.347900 ms CreateObjectMapping: 1.156600 ms MarkObjects: 2.448600 ms  DeleteObjects: 0.022300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001688 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.103 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.1 MB.
+System memory in use after: 87.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2301.
+Total: 1.972600 ms (FindLiveObjects: 0.240500 ms CreateObjectMapping: 0.072400 ms MarkObjects: 1.642800 ms  DeleteObjects: 0.015900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001690 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.60 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.021 seconds
 Platform modules already initialized, skipping
 Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.1 MB.
-System memory in use after: 98.1 MB.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.1 MB.
+System memory in use after: 87.2 MB.
 
-Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2355.
-Total: 1.789500 ms (FindLiveObjects: 0.157900 ms CreateObjectMapping: 0.061000 ms MarkObjects: 1.483500 ms  DeleteObjects: 0.086000 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 2.031500 ms (FindLiveObjects: 0.210700 ms CreateObjectMapping: 0.097300 ms MarkObjects: 1.704300 ms  DeleteObjects: 0.017900 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001043 seconds.
+Registered in 0.002238 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.20 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.712 seconds
+- Completed reload, in  1.055 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.47 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1825 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 98.4 MB.
-System memory in use after: 98.4 MB.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
 
-Unloading 12 unused Assets to reduce memory usage. Loaded Objects now: 2358.
-Total: 1.768900 ms (FindLiveObjects: 0.149600 ms CreateObjectMapping: 0.052000 ms MarkObjects: 1.480300 ms  DeleteObjects: 0.085900 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2307.
+Total: 3.265900 ms (FindLiveObjects: 0.330500 ms CreateObjectMapping: 0.085500 ms MarkObjects: 2.826600 ms  DeleteObjects: 0.021600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001760 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.89 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2310.
+Total: 2.108100 ms (FindLiveObjects: 0.235400 ms CreateObjectMapping: 0.089700 ms MarkObjects: 1.761500 ms  DeleteObjects: 0.020200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001741 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.90 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.109 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 2.10 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.7 MB.
+System memory in use after: 87.8 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2313.
+Total: 4.484400 ms (FindLiveObjects: 0.379200 ms CreateObjectMapping: 0.081300 ms MarkObjects: 3.997400 ms  DeleteObjects: 0.024400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002675 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.981 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2316.
+Total: 2.369800 ms (FindLiveObjects: 0.292200 ms CreateObjectMapping: 0.173100 ms MarkObjects: 1.887700 ms  DeleteObjects: 0.015200 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002447 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.87 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.166 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1820 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.3 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2319.
+Total: 2.215500 ms (FindLiveObjects: 0.315100 ms CreateObjectMapping: 0.077200 ms MarkObjects: 1.806500 ms  DeleteObjects: 0.015400 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 4360.565717 seconds.
+  path: Assets/Scripts/HurtEnemy.cs
+  artifactKey: Guid(874a23977315ad14394d0c174d0ff6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/HurtEnemy.cs using Guid(874a23977315ad14394d0c174d0ff6cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34f15e766611a920ebc8d21b0ff77a5') in 0.035229 seconds
+  Import took 0.039541 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001679 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.004 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2323.
+Total: 3.226400 ms (FindLiveObjects: 0.335900 ms CreateObjectMapping: 0.089700 ms MarkObjects: 2.773400 ms  DeleteObjects: 0.025900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001767 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.875 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2326.
+Total: 3.032900 ms (FindLiveObjects: 0.562800 ms CreateObjectMapping: 0.267700 ms MarkObjects: 2.174400 ms  DeleteObjects: 0.026900 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 180.276998 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5350dcc43ca4a8d11da4f8e02170302c') in 0.020566 seconds
+  Import took 0.024531 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001873 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.941 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.8 MB.
+System memory in use after: 87.9 MB.
+
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2329.
+Total: 2.260100 ms (FindLiveObjects: 0.245700 ms CreateObjectMapping: 0.065600 ms MarkObjects: 1.925900 ms  DeleteObjects: 0.021800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001877 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.198 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2332.
+Total: 2.410100 ms (FindLiveObjects: 0.207000 ms CreateObjectMapping: 0.067300 ms MarkObjects: 2.107700 ms  DeleteObjects: 0.026800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001553 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.831 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2335.
+Total: 2.301900 ms (FindLiveObjects: 0.230400 ms CreateObjectMapping: 0.134200 ms MarkObjects: 1.886400 ms  DeleteObjects: 0.049400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001625 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.966 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.2 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2338.
+Total: 2.192800 ms (FindLiveObjects: 0.330000 ms CreateObjectMapping: 0.072900 ms MarkObjects: 1.761400 ms  DeleteObjects: 0.027500 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001541 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.887 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2341.
+Total: 1.985800 ms (FindLiveObjects: 0.233400 ms CreateObjectMapping: 0.065400 ms MarkObjects: 1.667800 ms  DeleteObjects: 0.017600 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001708 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.921 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.3 MB.
+System memory in use after: 88.4 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2344.
+Total: 1.914700 ms (FindLiveObjects: 0.274700 ms CreateObjectMapping: 0.063100 ms MarkObjects: 1.563500 ms  DeleteObjects: 0.012300 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001698 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.945 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.61 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.6 MB.
+System memory in use after: 87.7 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2347.
+Total: 2.129700 ms (FindLiveObjects: 0.336500 ms CreateObjectMapping: 0.092300 ms MarkObjects: 1.671900 ms  DeleteObjects: 0.027400 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001736 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.878 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2350.
+Total: 2.671800 ms (FindLiveObjects: 0.305300 ms CreateObjectMapping: 0.080500 ms MarkObjects: 2.266500 ms  DeleteObjects: 0.017800 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001758 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.855 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2353.
+Total: 2.407900 ms (FindLiveObjects: 0.294400 ms CreateObjectMapping: 0.077200 ms MarkObjects: 2.003300 ms  DeleteObjects: 0.031700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001739 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.59 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.925 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.1 MB.
+System memory in use after: 88.2 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2356.
+Total: 2.021400 ms (FindLiveObjects: 0.187700 ms CreateObjectMapping: 0.065200 ms MarkObjects: 1.744800 ms  DeleteObjects: 0.022900 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001452 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.012 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1821 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 88.4 MB.
+System memory in use after: 88.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2359.
+Total: 2.195800 ms (FindLiveObjects: 0.307400 ms CreateObjectMapping: 0.081200 ms MarkObjects: 1.791700 ms  DeleteObjects: 0.014300 ms)
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
