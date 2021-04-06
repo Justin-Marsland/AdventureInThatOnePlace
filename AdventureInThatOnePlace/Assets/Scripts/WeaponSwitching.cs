@@ -19,7 +19,7 @@ public class WeaponSwitching : MonoBehaviour
     void Start()
     {
         SelectWeapon();
-        numWeapons = 2; //For debugging purposes
+        numWeapons = 3; //For debugging purposes
     }
 
     // Update is called once per frame

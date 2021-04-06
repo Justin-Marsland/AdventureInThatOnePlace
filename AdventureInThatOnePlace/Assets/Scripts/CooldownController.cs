@@ -12,7 +12,6 @@ public class CooldownController : MonoBehaviour
     [SerializeField]
     private WaitForSeconds regenTick = new WaitForSeconds(0.001f);
 
-
     public static CooldownController instance;
 
     private void Awake()

@@ -9,6 +9,8 @@ public class MainMenuController : MonoBehaviour
     // Start is called before the first frame update
     public void PlayGame()
     {
+        Time.timeScale = 1f;
+        PauseMenu.isPaused = false;
         SceneManager.LoadScene("Forest1");
     }
 
