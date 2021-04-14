@@ -122,22 +122,28 @@ public class PlayerMovement : MonoBehaviour
             myAnimator.SetBool("Dagger", true);
             myAnimator.SetBool("Broadsword", false);
             myAnimator.SetBool("Greatsword", false);
+            myAnimator.SetBool("Spear", false);
         }
         else if (WeaponSwitching.instance.selectedWeapon == 1) //Every other weapon will default to broadsword, since there's nothing for every other weapon
         {
             myAnimator.SetBool("Dagger", false);
             myAnimator.SetBool("Broadsword", true);
             myAnimator.SetBool("Greatsword", false);
+            myAnimator.SetBool("Spear", false);
         }
         else if (WeaponSwitching.instance.selectedWeapon == 2)
         {
             myAnimator.SetBool("Dagger", false);
             myAnimator.SetBool("Broadsword", false);
             myAnimator.SetBool("Greatsword", true);
+            myAnimator.SetBool("Spear", false);
         }
         else if (WeaponSwitching.instance.selectedWeapon == 3)
         {
-            //Spear
+            myAnimator.SetBool("Dagger", false);
+            myAnimator.SetBool("Broadsword", false);
+            myAnimator.SetBool("Greatsword", false);
+            myAnimator.SetBool("Spear", true);
         }
     }
 }
