@@ -51,4 +51,10 @@ public class HealthController : MonoBehaviour
             }
         }
     }
+
+    private void OnTriggerEnter2D(Collider2D collider)
+    {
+        if (collider.tag == "HealingZone" && health < 3)
+            health = 3;
+    }
 }

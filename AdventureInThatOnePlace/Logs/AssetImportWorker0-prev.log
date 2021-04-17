@@ -15,11 +15,11 @@ C:/Users/TheSh/OneDrive/Documents/GitHub/AdventureInThatOnePlace/AdventureInThat
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52351
+57177
 Successfully changed project path to: C:/Users/TheSh/OneDrive/Documents/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace
 C:/Users/TheSh/OneDrive/Documents/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 45.61 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 44.10 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,217 +35,57 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56448
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56172
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001719 seconds.
+Registered in 0.002665 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 40.95 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 49.06 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.959 seconds
+- Completed reload, in  1.205 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.000987 seconds.
+Registered in 0.001839 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 49.90 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 63.74 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.838 seconds
+- Completed reload, in  1.141 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 0.43 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.8 MB.
-System memory in use after: 87.8 MB.
+System memory in use before: 87.9 MB.
+System memory in use after: 87.9 MB.
 
 Unloading 23 unused Assets to reduce memory usage. Loaded Objects now: 2287.
-Total: 2.197000 ms (FindLiveObjects: 0.204200 ms CreateObjectMapping: 0.150100 ms MarkObjects: 1.746700 ms  DeleteObjects: 0.094600 ms)
+Total: 2.769700 ms (FindLiveObjects: 0.273300 ms CreateObjectMapping: 0.096500 ms MarkObjects: 2.282600 ms  DeleteObjects: 0.115900 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes/Desert1.unity
-  artifactKey: Guid(7f4dceaadb169804a8c31a4c65e25a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Desert1.unity using Guid(7f4dceaadb169804a8c31a4c65e25a23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fbaafe317d4a2d2f290a814206ba38b') in 0.015609 seconds
-  Import took 0.018957 seconds .
+  path: Assets/Scripts/PlayerMovement.cs
+  artifactKey: Guid(b1c0c961c853d254f93ba120454557ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerMovement.cs using Guid(b1c0c961c853d254f93ba120454557ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a92b91fb35b1c5cd3a94c4d43fd14939') in 0.040923 seconds
+  Import took 0.045176 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 197.755509 seconds.
-  path: Assets/Player.prefab
-  artifactKey: Guid(79143474e230b884ca35c4a1abd5b8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Player.prefab using Guid(79143474e230b884ca35c4a1abd5b8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c837454fada28d2e00265279f71b667a') in 0.272650 seconds
-  Import took 0.281005 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/SpriteAtlus.spriteatlas
-  artifactKey: Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SpriteAtlus.spriteatlas using Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89e86d570965ffae88f9413c69a20d08') in 0.111111 seconds
-  Import took 0.117888 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1425.848848 seconds.
-  path: Assets/Tiny RPG Forest/Tileset
-  artifactKey: Guid(ebd793e0fafeabb40bf91345e75dd410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Tileset using Guid(ebd793e0fafeabb40bf91345e75dd410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c32007e7324c5d3f34375ddb005e04d') in 0.008948 seconds
-  Import took 0.013353 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.164769 seconds.
-  path: Assets/Prefabs/HeadsUpCanvas.prefab
-  artifactKey: Guid(40a45adfd9271074bbff585b57638812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/HeadsUpCanvas.prefab using Guid(40a45adfd9271074bbff585b57638812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d504036e36de3b0e141bc3582d99af') in 0.021644 seconds
-  Import took 0.025202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Prefabs/PauseCanvas.prefab
-  artifactKey: Guid(e004fd2ca9befda4ea1ea9003c049440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PauseCanvas.prefab using Guid(e004fd2ca9befda4ea1ea9003c049440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6501b71a4ad017a62a15e5ae437195ea') in 0.018791 seconds
-  Import took 0.022538 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004224 seconds.
-  path: Assets/Prefabs/PauseCanvas.prefab
-  artifactKey: Guid(e004fd2ca9befda4ea1ea9003c049440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabs/PauseCanvas.prefab using Guid(e004fd2ca9befda4ea1ea9003c049440) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6501b71a4ad017a62a15e5ae437195ea') in 0.005270 seconds
-  Import took 0.009612 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 9.807719 seconds.
-  path: Assets/Top Down Adventure Assets
-  artifactKey: Guid(73f36a9d25a5d394790a864426b90e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Top Down Adventure Assets using Guid(73f36a9d25a5d394790a864426b90e18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39afa60acb83affbc2d748d5bb4a0020') in 0.008030 seconds
-  Import took 0.021490 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 39.644703 seconds.
-  path: Assets/NES - The Legend of Zelda - Overworld Tileset.png
-  artifactKey: Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NES - The Legend of Zelda - Overworld Tileset.png using Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4065ffe900c9c3a54b3b2b6d583f5119') in 0.048730 seconds
-  Import took 0.052196 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.012507 seconds.
-  path: Assets/NES - The Legend of Zelda - Overworld Tileset.png
-  artifactKey: Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NES - The Legend of Zelda - Overworld Tileset.png using Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4065ffe900c9c3a54b3b2b6d583f5119') in 0.013001 seconds
-  Import took 0.015850 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 101.001717 seconds.
-  path: Assets/NES - The Legend of Zelda - Overworld Tileset.png
-  artifactKey: Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NES - The Legend of Zelda - Overworld Tileset.png using Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e37472d65035f88b769199e62fc4cfe3') in 0.014230 seconds
-  Import took 0.017923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 13.219440 seconds.
-  path: Assets/TinyRPGTown
-  artifactKey: Guid(db8e59a673a8e514bb7e153270e031a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TinyRPGTown using Guid(db8e59a673a8e514bb7e153270e031a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5d612dad47bbefc83463a31842410f8') in 0.007622 seconds
-  Import took 0.011866 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 123.529895 seconds.
-  path: Assets/Tiny RPG Forest/Scenes
-  artifactKey: Guid(2e39666c8d97146989e82f1b73e1f71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Scenes using Guid(2e39666c8d97146989e82f1b73e1f71c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7179c45c8b4696cfd289e7981e59f34') in 0.007106 seconds
-  Import took 0.010633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 94.549647 seconds.
-  path: Assets/NES - The Legend of Zelda - Overworld Tileset.png
-  artifactKey: Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NES - The Legend of Zelda - Overworld Tileset.png using Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a48d21ed32a73a46f8ad7e1454a22a04') in 0.017132 seconds
-  Import took 0.020595 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 405.944474 seconds.
-  path: Assets/NES - The Legend of Zelda - Overworld Tileset.png
-  artifactKey: Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NES - The Legend of Zelda - Overworld Tileset.png using Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a6c8cec46ed256f4b5d2712048627d') in 0.013933 seconds
-  Import took 0.018280 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014806 seconds.
-  path: Assets/NES - The Legend of Zelda - Overworld Tileset.png
-  artifactKey: Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NES - The Legend of Zelda - Overworld Tileset.png using Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1a6c8cec46ed256f4b5d2712048627d') in 0.013842 seconds
-  Import took 0.019027 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 100.509976 seconds.
-  path: Assets/NES - The Legend of Zelda - Overworld Tileset.png
-  artifactKey: Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NES - The Legend of Zelda - Overworld Tileset.png using Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e815f9c806c39193c72ac4142292683') in 0.015118 seconds
-  Import took 0.019157 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 361.460902 seconds.
-  path: Assets/NES - The Legend of Zelda - Overworld Tileset.png
-  artifactKey: Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NES - The Legend of Zelda - Overworld Tileset.png using Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '621d4d6ea17ccbe4e3c44730f713e329') in 0.021799 seconds
-  Import took 0.025929 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 130.905418 seconds.
-  path: Assets/NES - The Legend of Zelda - Overworld Tileset.png
-  artifactKey: Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NES - The Legend of Zelda - Overworld Tileset.png using Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f3d2e0cbdc09fb9b90cbb92865c3a6') in 0.013707 seconds
-  Import took 0.017290 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 611.598665 seconds.
-  path: Assets/NES - The Legend of Zelda - Overworld Tileset.png
-  artifactKey: Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NES - The Legend of Zelda - Overworld Tileset.png using Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8edd4bb86d0a0dc43cc2f6ef4e4cab4a') in 0.016129 seconds
-  Import took 0.019804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 34.188890 seconds.
-  path: Assets/NES - The Legend of Zelda - Overworld Tileset.png
-  artifactKey: Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NES - The Legend of Zelda - Overworld Tileset.png using Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b5a97af1de164242c7b4be632b2b025') in 0.013007 seconds
-  Import took 0.016921 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 128.985043 seconds.
-  path: Assets/NES - The Legend of Zelda - Overworld Tileset.png
-  artifactKey: Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/NES - The Legend of Zelda - Overworld Tileset.png using Guid(dc5afffcc72e71241b3dd625081d9aa8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac9412ce55bf6ca978495e716bd789ca') in 0.071644 seconds
-  Import took 0.075327 seconds .
+  Time since last request: 2513.412736 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a27e96119367f5f81fd9e2ddbc48c393') in 0.024132 seconds
+  Import took 0.028143 seconds .
 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
