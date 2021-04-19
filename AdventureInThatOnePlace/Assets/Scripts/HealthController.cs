@@ -50,6 +50,8 @@ public class HealthController : MonoBehaviour
                 hearts[i].enabled = true;
             }
         }
+
+        
     }
 
     private void OnTriggerEnter2D(Collider2D collider)

@@ -54432,7 +54432,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3085183120620399726, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
       propertyPath: m_RootOrder
-      value: 8
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 3397320704844305286, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
       propertyPath: m_IsActive
@@ -54448,11 +54448,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5190672770943828740, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6938054586016385978, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
       propertyPath: m_RootOrder
-      value: 7
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 8830368146212765279, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
       propertyPath: coolDown
@@ -54478,6 +54478,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 874a23977315ad14394d0c174d0ff6cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageToGive: 2
 --- !u!1 &720421841 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 24165197944415059, guid: 79143474e230b884ca35c4a1abd5b8ca, type: 3}
@@ -54753,6 +54754,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 874a23977315ad14394d0c174d0ff6cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageToGive: 2
 --- !u!1 &921819820
 GameObject:
   m_ObjectHideFlags: 0
@@ -56498,6 +56500,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 874a23977315ad14394d0c174d0ff6cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  damageToGive: 2
 --- !u!1 &1738792386
 GameObject:
   m_ObjectHideFlags: 0
@@ -56764,6 +56767,21 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 7855889309556184695, guid: f1687628393276c44a56fc000cb127df, type: 3}
   m_PrefabInstance: {fileID: 82608458}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1975692675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975692674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e751cb5c5881e846ad905cebc51f336, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  currentHealth: 10
+  maxHealth: 10
+  flashLength: 0.5
 --- !u!114 &1975692680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56777,9 +56795,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   homePos: {fileID: 225726042}
-  speed: 4
-  maxRange: 7
-  minRange: 1
+  speed: 3
+  maxRange: 5
+  minRange: 1.5
+--- !u!114 &1975692681
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975692674}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 874a23977315ad14394d0c174d0ff6cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damageToGive: 2
 --- !u!1 &2083986154
 GameObject:
   m_ObjectHideFlags: 0
