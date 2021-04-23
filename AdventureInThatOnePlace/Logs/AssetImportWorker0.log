@@ -15,11 +15,11 @@ C:/Users/Bioni/OneDrive/Desktop/CSC 452/GitHub/AdventureInThatOnePlace/Adventure
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53283
+64246
 Successfully changed project path to: C:/Users/Bioni/OneDrive/Desktop/CSC 452/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace
 C:/Users/Bioni/OneDrive/Desktop/CSC 452/GitHub/AdventureInThatOnePlace/AdventureInThatOnePlace
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 95.07 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 73.64 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
@@ -35,334 +35,132 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56252
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006249 seconds.
+Registered in 0.002300 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 103.15 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 70.20 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.911 seconds
+- Completed reload, in  1.567 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001730 seconds.
+Registered in 0.001399 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.15 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 61.35 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.482 seconds
+- Completed reload, in  1.317 seconds
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.73 ms, found 1 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1845 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.7 MB.
-System memory in use after: 87.8 MB.
+System memory in use before: 87.9 MB.
+System memory in use after: 88.0 MB.
 
 Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2291.
-Total: 2.586900 ms (FindLiveObjects: 0.242200 ms CreateObjectMapping: 0.130100 ms MarkObjects: 2.138500 ms  DeleteObjects: 0.074200 ms)
+Total: 2.854200 ms (FindLiveObjects: 0.454400 ms CreateObjectMapping: 0.223500 ms MarkObjects: 2.063300 ms  DeleteObjects: 0.111700 ms)
 
 ========================================================================
 Received Import Request.
-  path: Assets/Animation/Skeleton.controller
-  artifactKey: Guid(b204f2b586b65944a8be5536205e2a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Skeleton.controller using Guid(b204f2b586b65944a8be5536205e2a34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a21c6d90b6e2cca82a50f7b71bd6d3f') in 0.072360 seconds
-  Import took 0.077138 seconds .
+  path: Assets/Player.prefab
+  artifactKey: Guid(79143474e230b884ca35c4a1abd5b8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Player.prefab using Guid(79143474e230b884ca35c4a1abd5b8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad54ad597cb95d0a4a1ec117205a09cd') in 0.389890 seconds
+  Import took 0.402614 seconds .
 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.34 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 49.7 MB.
-System memory in use after: 49.9 MB.
-
-Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 2291.
-Total: 3.265900 ms (FindLiveObjects: 0.326600 ms CreateObjectMapping: 0.143400 ms MarkObjects: 2.769700 ms  DeleteObjects: 0.024200 ms)
+Received Import Request.
+  Time since last request: 0.000589 seconds.
+  path: Assets/SpriteAtlus.spriteatlas
+  artifactKey: Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SpriteAtlus.spriteatlas using Guid(6467fa6a7ba4829408f31882ea4e3c4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb98d93a852ee5c4b46f181600422d6') in 0.201200 seconds
+  Import took 0.214319 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001234 seconds.
+Registered in 0.091387 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.424 seconds
+- Completed reload, in  1.257 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.69 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.9 MB.
-System memory in use after: 87.0 MB.
+System memory in use before: 94.5 MB.
+System memory in use after: 94.6 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2294.
-Total: 3.322500 ms (FindLiveObjects: 0.284400 ms CreateObjectMapping: 0.112600 ms MarkObjects: 2.883100 ms  DeleteObjects: 0.040500 ms)
+Unloading 8 unused Assets to reduce memory usage. Loaded Objects now: 2301.
+Total: 2.569200 ms (FindLiveObjects: 0.210600 ms CreateObjectMapping: 0.089200 ms MarkObjects: 2.216500 ms  DeleteObjects: 0.051600 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.001187 seconds.
+Registered in 0.070876 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.199 seconds
+- Completed reload, in  1.327 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.51 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 1.72 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 86.9 MB.
-System memory in use after: 87.0 MB.
+System memory in use before: 94.5 MB.
+System memory in use after: 94.6 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2297.
-Total: 3.281400 ms (FindLiveObjects: 0.404400 ms CreateObjectMapping: 0.125000 ms MarkObjects: 2.718500 ms  DeleteObjects: 0.031800 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2304.
+Total: 4.494300 ms (FindLiveObjects: 0.380800 ms CreateObjectMapping: 0.267000 ms MarkObjects: 3.682100 ms  DeleteObjects: 0.162200 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002311 seconds.
+Registered in 0.002301 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.52 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.227 seconds
+- Completed reload, in  1.446 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.25 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.95 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.1 MB.
-System memory in use after: 87.3 MB.
+System memory in use before: 94.5 MB.
+System memory in use after: 94.6 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2300.
-Total: 3.885000 ms (FindLiveObjects: 0.342800 ms CreateObjectMapping: 0.162300 ms MarkObjects: 3.353000 ms  DeleteObjects: 0.024900 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2307.
+Total: 2.311900 ms (FindLiveObjects: 0.246800 ms CreateObjectMapping: 0.137400 ms MarkObjects: 1.901600 ms  DeleteObjects: 0.023800 ms)
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.166985 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  7.120 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 87.5 MB.
-System memory in use after: 87.7 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2303.
-Total: 3.325200 ms (FindLiveObjects: 0.422900 ms CreateObjectMapping: 0.686800 ms MarkObjects: 2.178000 ms  DeleteObjects: 0.035400 ms)
-
-========================================================================
-Received Import Request.
-  Time since last request: 2955.522952 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-back/hero-melee-back-1.png
-  artifactKey: Guid(85cf58d45035b074ca8b3b8c8f0ddd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-back/hero-melee-back-1.png using Guid(85cf58d45035b074ca8b3b8c8f0ddd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2f3b9e63bb85c7b1da19b96aa39da54') in 0.215755 seconds
-  Import took 0.221616 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000519 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-back/hero-melee-back-2.png
-  artifactKey: Guid(9c3368bd02f9a5c459272f463f261f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-back/hero-melee-back-2.png using Guid(9c3368bd02f9a5c459272f463f261f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '163e85341a9db3e3a6b44b5c9c5ead30') in 0.023889 seconds
-  Import took 0.028210 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002074 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-back/hero-melee-back-3.png
-  artifactKey: Guid(044cd560c0b6ee141b7bd79f23778109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-back/hero-melee-back-3.png using Guid(044cd560c0b6ee141b7bd79f23778109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e79979607cbac5e40c2a396a6c7cadd5') in 0.026693 seconds
-  Import took 0.031240 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 18.086993 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-back/hero-melee-back-2.png
-  artifactKey: Guid(9c3368bd02f9a5c459272f463f261f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-back/hero-melee-back-2.png using Guid(9c3368bd02f9a5c459272f463f261f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f250b50b0e681a1097b5d050ceb8738a') in 0.023082 seconds
-  Import took 0.029788 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006866 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-back/hero-melee-back-1.png
-  artifactKey: Guid(85cf58d45035b074ca8b3b8c8f0ddd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-back/hero-melee-back-1.png using Guid(85cf58d45035b074ca8b3b8c8f0ddd3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '066b761d34348831fd9c12567efafb26') in 0.025126 seconds
-  Import took 0.030969 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-back/hero-melee-back-3.png
-  artifactKey: Guid(044cd560c0b6ee141b7bd79f23778109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-back/hero-melee-back-3.png using Guid(044cd560c0b6ee141b7bd79f23778109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da530be2dee776808fc69e51d5bfd2f0') in 0.020172 seconds
-  Import took 0.025123 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 68.063893 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-1.png
-  artifactKey: Guid(03dc95fa1fcdd3e4ca832bde5a5f6b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-1.png using Guid(03dc95fa1fcdd3e4ca832bde5a5f6b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d378006401ba5c4f321f980d2ea9094') in 0.019539 seconds
-  Import took 0.024487 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-2.png
-  artifactKey: Guid(40b2bf88c61db084da4d7e75a84c06fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-2.png using Guid(40b2bf88c61db084da4d7e75a84c06fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaa2d038ac88a42f4a0dd4f0f4cc18c1') in 0.020042 seconds
-  Import took 0.026235 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-3.png
-  artifactKey: Guid(c04164ac976ced6459ac120682e27e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-3.png using Guid(c04164ac976ced6459ac120682e27e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd41411715b97494a037954c69c76785') in 0.021704 seconds
-  Import took 0.026041 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 44.499240 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-1.png
-  artifactKey: Guid(03dc95fa1fcdd3e4ca832bde5a5f6b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-1.png using Guid(03dc95fa1fcdd3e4ca832bde5a5f6b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f262b898b1954505fd8fc32398287bb1') in 0.028589 seconds
-  Import took 0.035096 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-2.png
-  artifactKey: Guid(40b2bf88c61db084da4d7e75a84c06fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-2.png using Guid(40b2bf88c61db084da4d7e75a84c06fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adff4a0fceedfca171b1de7d02ef9f28') in 0.022820 seconds
-  Import took 0.028264 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000321 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-3.png
-  artifactKey: Guid(c04164ac976ced6459ac120682e27e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-3.png using Guid(c04164ac976ced6459ac120682e27e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c125558dd07ecbd9fd549c8c3c504919') in 0.016864 seconds
-  Import took 0.022076 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 10.602904 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-1.png
-  artifactKey: Guid(03dc95fa1fcdd3e4ca832bde5a5f6b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-1.png using Guid(03dc95fa1fcdd3e4ca832bde5a5f6b33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a404c8808d186e76706f8c89f90971ad') in 0.027271 seconds
-  Import took 0.034641 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000386 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-2.png
-  artifactKey: Guid(40b2bf88c61db084da4d7e75a84c06fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-2.png using Guid(40b2bf88c61db084da4d7e75a84c06fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1630bf804eb3e350ef45601903931a3b') in 0.023652 seconds
-  Import took 0.032163 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000567 seconds.
-  path: Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-3.png
-  artifactKey: Guid(c04164ac976ced6459ac120682e27e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tiny RPG Forest/Artwork/sprites/hero/melee/Spear/hero-melee-side/hero-attack-side-weapon-3.png using Guid(c04164ac976ced6459ac120682e27e69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8530c876fe853f481d0524543d75fba7') in 0.036655 seconds
-  Import took 0.042261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 15.495117 seconds.
-  path: Assets/Animation/Player.controller
-  artifactKey: Guid(60794f365ce491f4c83c66dd41746c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Player.controller using Guid(60794f365ce491f4c83c66dd41746c41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f1b5ed2438a00eeec17e014f95a3fd') in 0.136942 seconds
-  Import took 0.143947 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 280.194366 seconds.
-  path: Assets/Animation/Spear_Animations/Spear_Down.anim
-  artifactKey: Guid(7139a18f38b0a754baadaf043148d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Spear_Animations/Spear_Down.anim using Guid(7139a18f38b0a754baadaf043148d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d3fc1bdf0e65640f3734540086f0d1') in 0.024789 seconds
-  Import took 0.031260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.014097 seconds.
-  path: Assets/Animation/Spear_Animations/Spear_Down.anim
-  artifactKey: Guid(7139a18f38b0a754baadaf043148d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Spear_Animations/Spear_Down.anim using Guid(7139a18f38b0a754baadaf043148d92a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d3fc1bdf0e65640f3734540086f0d1') in 0.006497 seconds
-  Import took 0.012113 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 2.300467 seconds.
-  path: Assets/Animation/Spear_Animations/Spear_Side.anim
-  artifactKey: Guid(6494f605849ae8341bb7cf4b8b842815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Spear_Animations/Spear_Side.anim using Guid(6494f605849ae8341bb7cf4b8b842815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b09e27acc39304639180a1a9fea344') in 0.010918 seconds
-  Import took 0.017188 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.010356 seconds.
-  path: Assets/Animation/Spear_Animations/Spear_Side.anim
-  artifactKey: Guid(6494f605849ae8341bb7cf4b8b842815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Spear_Animations/Spear_Side.anim using Guid(6494f605849ae8341bb7cf4b8b842815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b09e27acc39304639180a1a9fea344') in 0.006169 seconds
-  Import took 0.011009 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.620795 seconds.
-  path: Assets/Animation/Spear_Animations/Spear_Up.anim
-  artifactKey: Guid(088060fc34e792247919f265cd7bae29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Spear_Animations/Spear_Up.anim using Guid(088060fc34e792247919f265cd7bae29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c79050c7f7b0d6eb062a754ebcc7b5') in 0.016034 seconds
-  Import took 0.022869 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006302 seconds.
-  path: Assets/Animation/Spear_Animations/Spear_Up.anim
-  artifactKey: Guid(088060fc34e792247919f265cd7bae29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/Spear_Animations/Spear_Up.anim using Guid(088060fc34e792247919f265cd7bae29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46c79050c7f7b0d6eb062a754ebcc7b5') in 0.008740 seconds
-  Import took 0.016040 seconds .
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001844 seconds.
+Registered in 0.001831 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Refreshing native plugins compatible for Editor in 0.55 ms, found 1 plugins.
@@ -371,106 +169,15 @@ Invoked RoslynAnalysisRunner static constructor.
 RoslynAnalysisRunner will not be running.
 RoslynAnalysisRunner has terminated.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.411 seconds
+- Completed reload, in  1.360 seconds
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.42 ms, found 1 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 1 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.9 MB.
-System memory in use after: 91.0 MB.
+System memory in use before: 94.9 MB.
+System memory in use after: 95.0 MB.
 
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2312.
-Total: 4.595000 ms (FindLiveObjects: 0.508300 ms CreateObjectMapping: 0.306300 ms MarkObjects: 3.748600 ms  DeleteObjects: 0.027100 ms)
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2310.
+Total: 3.982100 ms (FindLiveObjects: 0.349900 ms CreateObjectMapping: 0.155400 ms MarkObjects: 3.424900 ms  DeleteObjects: 0.049600 ms)
 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001389 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.240 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.1 MB.
-System memory in use after: 91.2 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2315.
-Total: 2.887800 ms (FindLiveObjects: 0.394300 ms CreateObjectMapping: 0.170600 ms MarkObjects: 2.283800 ms  DeleteObjects: 0.036300 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001258 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.539 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.80 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.3 MB.
-System memory in use after: 91.4 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2318.
-Total: 2.701600 ms (FindLiveObjects: 0.360500 ms CreateObjectMapping: 0.203400 ms MarkObjects: 2.112400 ms  DeleteObjects: 0.022600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.001396 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.62 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.290 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 91.7 MB.
-System memory in use after: 91.8 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2321.
-Total: 2.752300 ms (FindLiveObjects: 0.408600 ms CreateObjectMapping: 0.206800 ms MarkObjects: 2.102800 ms  DeleteObjects: 0.032600 ms)
-
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.002400 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.53 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Invoked RoslynAnalysisRunner static constructor.
-RoslynAnalysisRunner will not be running.
-RoslynAnalysisRunner has terminated.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.290 seconds
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.50 ms, found 1 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 1822 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 90.9 MB.
-System memory in use after: 91.0 MB.
-
-Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2324.
-Total: 2.753200 ms (FindLiveObjects: 0.535000 ms CreateObjectMapping: 0.167600 ms MarkObjects: 2.002100 ms  DeleteObjects: 0.046500 ms)
-
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
