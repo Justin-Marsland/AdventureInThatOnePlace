@@ -452,10 +452,10 @@ AnimatorStateTransition:
     m_ConditionEvent: lastMoveX
     m_EventTreshold: -0.1
   - m_ConditionMode: 1
-    m_ConditionEvent: isAttacking
+    m_ConditionEvent: Spear
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: Dagger
+    m_ConditionEvent: isAttacking
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6152892447714591523}
@@ -715,10 +715,10 @@ AnimatorStateTransition:
     m_ConditionEvent: lastMoveX
     m_EventTreshold: 0.1
   - m_ConditionMode: 1
-    m_ConditionEvent: isAttacking
+    m_ConditionEvent: Spear
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: Spear
+    m_ConditionEvent: isAttacking
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6152892447714591523}
@@ -1867,10 +1867,10 @@ AnimatorStateTransition:
     m_ConditionEvent: lastMoveY
     m_EventTreshold: -0.1
   - m_ConditionMode: 1
-    m_ConditionEvent: isAttacking
+    m_ConditionEvent: Spear
     m_EventTreshold: 0
   - m_ConditionMode: 1
-    m_ConditionEvent: Greatsword
+    m_ConditionEvent: isAttacking
     m_EventTreshold: 0
   m_DstStateMachine: {fileID: 0}
   m_DstState: {fileID: -6152892447714591523}
