@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class HealthController : MonoBehaviour
@@ -15,6 +16,8 @@ public class HealthController : MonoBehaviour
     public Sprite fullHeart;
     [SerializeField]
     public Sprite emptyHeart;
+    [SerializeField]
+    public Animator transitionAnim;
 
     // Start is called before the first frame update
     void Start()
@@ -25,7 +28,7 @@ public class HealthController : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
+        Respawn();
         if(health > numOfHearts)
         {
             health = numOfHearts;
@@ -58,5 +61,20 @@ public class HealthController : MonoBehaviour
     {
         if (collider.tag == "HealingZone" && health < 3)
             health = 3;
+    }
+
+    private void Respawn()
+    {
+        if(health < 1)
+        {
+            StartCoroutine(LoadScene());
+        }
+    }
+
+    private IEnumerator LoadScene()
+    {
+        transitionAnim.SetTrigger("end");
+        yield return new WaitForSeconds(1.5f);
+        SceneManager.LoadScene("Forest1");
     }
 }
