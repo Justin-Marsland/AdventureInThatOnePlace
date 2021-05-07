@@ -28,7 +28,6 @@ public class PlayerMovement : MonoBehaviour
     {
         Instance = this;
         rb = GetComponent<Rigidbody2D>();
-        selectedWeapon = weapon[0];
         myAnimator.SetFloat("lastMoveY", 1);
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = true;
